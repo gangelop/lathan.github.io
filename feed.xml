@@ -1,30 +1,209 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>computers, linux, open source</title>
+    <description>I&#39;m George Angelopoulos and I like computers. I write stuff in this blog here, occasionally.
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 26 Dec 2015 15:04:28 +0100</pubDate>
+    <lastBuildDate>Sat, 26 Dec 2015 15:04:28 +0100</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Greek Translation for OpenCart</title>
+        <description>&lt;p&gt;I’ve been busy lately, setting up a project with &lt;a href=&quot;http://opencart.com/&quot; target=&quot;_blank&quot;&gt;OpenCart&lt;/a&gt;. Since this is a website for a local store, it has to be in Greek. Unfortunately, all the Greek translations were out of date. Fortunately, this is open source! I’m happy to announce, I’ve taken one of the out-of-date translations, spent some time on it, given it &lt;a href=&quot;https://github.com/lathan/opencart-greek&quot; target=&quot;_blank&quot;&gt;a proper github repo&lt;/a&gt;, and &lt;a href=&quot;http://www.opencart.com/index.php?route=extension/extension/info&amp;amp;extension_id=14317&amp;amp;filter_search=greek&quot; target=&quot;_blank&quot;&gt;brought it up to date&lt;/a&gt;.&lt;br /&gt;
+If I end up using OpenCart with this project and the project itself survives, you should expect this translation to be kept up-to-date.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Oct 2013 00:00:00 +0200</pubDate>
+        <link>/greek-translation-for-opencart/</link>
+        <guid isPermaLink="true">/greek-translation-for-opencart/</guid>
+        
+        <category>github</category>
+        
+        <category>greek</category>
+        
+        <category>language</category>
+        
+        <category>open source</category>
+        
+        <category>opencart</category>
+        
+        <category>opencart extension</category>
+        
+        <category>translation</category>
+        
+        
+        <category>projects</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Steam Controller!</title>
+        <description>&lt;p&gt;Following the very recent announcement of the &lt;a title=&quot;Steam Machines!&quot; href=&quot;http://store.steampowered.com/livingroom/SteamMachines/&quot; target=&quot;_blank&quot;&gt;steam machines&lt;/a&gt;, I went to apply for the hardware beta. There was some legal agreement which I would normally ignore and check the “I agree button.” But this time I didn’t. This time I read it. And there it was:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Valve Corporation (“Valve”, “We”, “Us” or “Our”) has developed and produced prototypes of entertainment system hardware and software, including a set-top box running custom software and &lt;strong&gt;A GAME CONTROLLER&lt;/strong&gt; (collectively: “Beta Products”). These Beta Products are currently being prepared for a limited beta testing program (“Beta Program”) involving select end users of Our online service known as Steam (“Steam”).&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;http://https://store.steampowered.com/hardwarebeta&quot; target=&quot;_blank&quot;&gt;https://store.steampowered.com/hardwarebeta&lt;/a&gt;&lt;a href=&quot;http://www.usermod.net/wp-content/uploads/2013/09/steam_controller.png&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-100&quot; alt=&quot;steam_controller&quot; src=&quot;http://www.usermod.net/wp-content/uploads/2013/09/steam_controller-300x79.png&quot; width=&quot;300&quot; height=&quot;79&quot; srcset=&quot;http://www.usermod.net/wp-content/uploads/2013/09/steam_controller-300x79.png 300w, http://www.usermod.net/wp-content/uploads/2013/09/steam_controller.png 562w&quot; sizes=&quot;(max-width: 300px) 85vw, 300px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 25 Sep 2013 00:00:00 +0200</pubDate>
+        <link>/steam-controller/</link>
+        <guid isPermaLink="true">/steam-controller/</guid>
+        
+        <category>gaming</category>
+        
+        <category>linux gaming</category>
+        
+        <category>steam</category>
+        
+        <category>steam controller</category>
+        
+        <category>steam machines</category>
+        
+        <category>SteamOS</category>
+        
+        <category>valve</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Review: ALIX.2D13 router with pfsense</title>
+        <description>&lt;p&gt;I recently got my hands on an ALIX.2D13 router board. No more crappy ISP routers for me!&lt;/p&gt;
+
+&lt;p&gt;I specifically got an &lt;a href=&quot;http://store.netgate.com/ALIX2D3-2D13-Kit-Black-Unassembled-P172C82.aspx&quot;&gt;unassembled kit&lt;/a&gt; along with a &lt;a href=&quot;http://store.netgate.com/KIT-ALIX-5004MP-DUAL-P190C34.aspx&quot;&gt;miniPCI wireless card kit&lt;/a&gt;. Almost everything I needed came in the unassembled kit. The only extra items I had to find were some ethernet cables, a console (null modem) cable, and a very cheap &lt;a href=&quot;http://www.amazon.com/Bluecell-American-European-Outlet-Adapter/dp/B008M4LQM2/ref=sr_1_1?ie=UTF8&amp;amp;qid=1378187269&amp;amp;sr=8-1&amp;amp;keywords=american+european+adapter&quot;&gt;adapter&lt;/a&gt; to convert the pins on the power supply from American to European. Luckily, the power supply that netgate sent me works with 100V-240V input, which means I can use it here, with our European 220V power. Neat!&lt;/p&gt;
+
+&lt;p&gt;The most important extra item you will definitely need, if you buy an unassembled kit, is a CF card reader. You need the CF card reader so that you can write the OS image on the blank CF card you will receive with the kit.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2013/09/fyeahbsd.png&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/fyeahbsd-225x300.png&quot; alt=&quot;The powered by FreeBSD sticker was not included.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Assembling the physical parts was, as expected, fairly simple. There were no instructions but, as with most electronic equipment, there is only one (usually obviously) correct way to put it together; which means that if it fits, you are doing it right.&lt;/p&gt;
+
+&lt;p&gt;There was one odd thing I noticed before starting the assembly. Once you screw the board on the case, it is impossible to remove (or insert) the CF card. If you decide to remove the CF card from an assembled ALIX kit, you need to open the case by removing four screws and then, by removing another four screws, detach the entire board from the case. This could have been solved by cutting out a slot in the case to allow for removal of the CF card. I’m not sure why it hasn’t been done. Practically, I don’t expect this to be a problem as I don’t plan on removing the CF card anytime soon. It’s a router. It should reside in some dark corner of my house, routing my internets. I shouldn’t need to be tinkering with it after it is set up and “in production”. But still, it would have been better if this wasn’t an issue.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2013/09/alix_overview.png&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/alix_overview-300x225.png&quot; alt=&quot;alix overview&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/wp-content/uploads/2013/09/cf_blocked.png&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/cf_blocked-300x225.png&quot; alt=&quot;cf blocked&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Due to the aforementioned issue, I decided to set up pfsense before placing the board inside the case. Just in case…&lt;/p&gt;
+
+&lt;p&gt;Which brings us to pfsense.&lt;/p&gt;
+
+&lt;p&gt;There are a few different versions of pfsense which you can download and install. For my purposes, I needed the embedded 4GB version which works best with systems like the ALIX board. Details &lt;a href=&quot;http://pfsense.org/index.php@option=com_content&amp;amp;task=view&amp;amp;id=43&amp;amp;Itemid=44.html&quot;&gt;here&lt;/a&gt;. I downloaded the image, and followed the &lt;a href=&quot;http://doc.pfsense.org/index.php/InstallationGuide&quot;&gt;pfsense installation guide&lt;/a&gt; to write it to the CF card and boot for the first time. Since the ALIX.2D13 doesn’t have a graphics output, I had to use my console cable to communicate with the device and do the initial setup. That was as easy as saying:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo screen /dev/ttyS0&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;And boom! We have a terminal. Pfsense just asks you stuff and you say “yes” or “no” and pfsense takes care of the rest. Soon enough pfsense is on your network with its fancy web interface. Easy stuff. No problem. But alas! here comes the tricky part. And it has nothing to do with pfsense.&lt;/p&gt;
+
+&lt;p&gt;In my part of the world (Greece), ISPs give you DSL connections with PPPoE. A DSL connection means that you need a DSL modem to take the signal traveling on the old phone network and make it into something digital. “And what’s so tricky about that?” you might ask. “Can’t you just get a DSL modem?”. Well, I’m glad you asked. Let me tell you. No, you can’t really just get a DSL modem. You can get a DSL &lt;em&gt;modem/router&lt;/em&gt;. But I’m unaware of anyone, at least locally, selling DSL &lt;em&gt;modems&lt;/em&gt;. The trouble with modem/routers is that they want to do everything and I just want them to do the &lt;em&gt;modem&lt;/em&gt; part. I don’t want them to do routing, dhcp, NAT, wireless and the kitchen sink. Most of all, I don’t want them to establish the PPPoE connection. I want &lt;em&gt;my router&lt;/em&gt; to do all those things. How do we achieve this?&lt;/p&gt;
+
+&lt;p&gt;I’m still unclear as to how exactly this works but, apparently, what I need is something referred to as “bridged PPPoE” or “br1483”. It seems to me that br1483 refers to &lt;a href=&quot;https://www.rfc-editor.org/rfc/rfc1483.txt&quot;&gt;RFC1483&lt;/a&gt;, but after briefly skimming through RFC1483 I still don’t understand exactly what it’s about. Bellow are the settings I used on my ADSL modem/router:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2013/09/adsl.png&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/adsl-300x165.png&quot; alt=&quot;adsl modem/router&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+This is from the web interface of a netis DL-4302 DSL modem/router&lt;/p&gt;
+
+&lt;p&gt;Finally, after tinkering all day with 3 different modem/routers, the settings above worked. Ι went into pfsense, configured my WAN interface to connect to PPPoE and I was online.&lt;br /&gt;
+&lt;a href=&quot;/wp-content/uploads/2013/09/interface_details.png&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/interface_details-300x291.png&quot; alt=&quot;interface details&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/wp-content/uploads/2013/09/interfaces.png&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/interfaces-300x110.png&quot; alt=&quot;nterfaces&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been online with pfsense for only a few days now. I’ve set up all the very basic configurations such as choosing IP networks for my interfaces, making DHCP static mappings for my own computers and the printer, forwarding certain ports, testing bandwidth with iperf etc. So far everything has been working great. But these are only the basics. Pfsense offers a lot more functionality and I’m curious to see how much I can get out of the ALIX board before it starts being unreliable. In any case though, I’m just happy that I finally own my network.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 03 Sep 2013 00:00:00 +0200</pubDate>
+        <link>/review-alix-2d13-router-with-pfsense/</link>
+        <guid isPermaLink="true">/review-alix-2d13-router-with-pfsense/</guid>
+        
+        <category>alix</category>
+        
+        <category>free software</category>
+        
+        <category>freebsd</category>
+        
+        <category>home router</category>
+        
+        <category>open source</category>
+        
+        <category>pfsense</category>
+        
+        <category>router</category>
+        
+        
+        <category>reviews</category>
+        
+      </item>
+    
+      <item>
+        <title>Love requires the devil, apparently.</title>
+        <description>&lt;p style=&quot;text-align: left;&quot;&gt;
+  I have a software package on my system called “devil” and it’s required by “love”. I thought only FreeBSD worshiped satan.
+&lt;/p&gt;
+&lt;figure id=&quot;attachment_84&quot; style=&quot;width: 178px&quot; class=&quot;wp-caption aligncenter&quot;&gt;
+
+[&lt;img class=&quot;size-full wp-image-84 &quot; title=&quot;the FreeBSD logo&quot; alt=&quot;beastie&quot; src=&quot;http://www.usermod.net/wp-content/uploads/2013/08/beastie.png&quot; width=&quot;178&quot; height=&quot;196&quot; /&gt;][1]&lt;figcaption class=&quot;wp-caption-text&quot;&gt;the FreeBSD logo&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p style=&quot;text-align: left;&quot;&gt;
+  &lt;p&gt;
+    I’m confused.
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    &amp;nbsp;
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    &amp;nbsp;
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    &lt;code&gt;george@arch-pc ~ % pacman -Qi devil&amp;lt;br /&amp;gt;
+&amp;lt;strong&amp;gt;Name           : devil&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;
+Version        : 1.7.8-16&amp;lt;br /&amp;gt;
+Description    : Library for reading several different image formats&amp;lt;br /&amp;gt;
+Architecture   : i686&amp;lt;br /&amp;gt;
+URL            : &amp;lt;a href=&quot;http://openil.sourceforge.net/&quot; target=&quot;_blank&quot;&amp;gt;http://openil.sourceforge.net/&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;
+Licenses       : GPL&amp;lt;br /&amp;gt;
+Groups         : None&amp;lt;br /&amp;gt;
+Provides       : None&amp;lt;br /&amp;gt;
+Depends On     : libpng  libmng  jasper  lcms  openexr&amp;lt;br /&amp;gt;
+Optional Deps  : None&amp;lt;br /&amp;gt;
+&amp;lt;strong&amp;gt;Required By    : love&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;
+Optional For   : None&amp;lt;br /&amp;gt;
+Conflicts With : None&amp;lt;br /&amp;gt;
+Replaces       : None&amp;lt;br /&amp;gt;
+Installed Size : 1341.00 KiB&amp;lt;br /&amp;gt;
+Packager       : Laurent Carlier &amp;lt;lordheavym@gmail.com&amp;gt;&amp;lt;br /&amp;gt;
+Build Date     : Sun 28 Apr 2013 12:52:20 PM EEST&amp;lt;br /&amp;gt;
+Install Date   : Tue 04 Jun 2013 04:20:09 PM EEST&amp;lt;br /&amp;gt;
+Install Reason : Installed as a dependency for another package&amp;lt;br /&amp;gt;
+Install Script : Yes&amp;lt;br /&amp;gt;
+Validated By   : Signature&lt;/code&gt;
+  &lt;/p&gt;
+
+ [1]: http://www.freebsd.org/
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Aug 2013 00:00:00 +0200</pubDate>
+        <link>/love-requires-the-devil-apparently/</link>
+        <guid isPermaLink="true">/love-requires-the-devil-apparently/</guid>
+        
+        <category>devil</category>
+        
+        <category>humor</category>
+        
+        <category>love</category>
+        
+        <category>open source</category>
+        
+        
+        <category>observational humor</category>
+        
+      </item>
+    
   </channel>
 </rss>

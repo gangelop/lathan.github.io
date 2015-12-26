@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Review: ALIX.2D13 router with pfsense</title>
+  <meta name="description" content="I recently got my hands on an ALIX.2D13 router board. No more crappy ISP routers for me!">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="/review-alix-2d13-router-with-pfsense/">
+  <link rel="alternate" type="application/rss+xml" title="computers, linux, open source" href="/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">computers, linux, open source</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/api/">api</a>
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Review: ALIX.2D13 router with pfsense</h1>
+    <p class="post-meta"><time datetime="2013-09-03T00:00:00+02:00" itemprop="datePublished">Sep 3, 2013</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">george</span></span></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>I recently got my hands on an ALIX.2D13 router board. No more crappy ISP routers for me!</p>
+
+<p>I specifically got an <a href="http://store.netgate.com/ALIX2D3-2D13-Kit-Black-Unassembled-P172C82.aspx">unassembled kit</a> along with a <a href="http://store.netgate.com/KIT-ALIX-5004MP-DUAL-P190C34.aspx">miniPCI wireless card kit</a>. Almost everything I needed came in the unassembled kit. The only extra items I had to find were some ethernet cables, a console (null modem) cable, and a very cheap <a href="http://www.amazon.com/Bluecell-American-European-Outlet-Adapter/dp/B008M4LQM2/ref=sr_1_1?ie=UTF8&amp;qid=1378187269&amp;sr=8-1&amp;keywords=american+european+adapter">adapter</a> to convert the pins on the power supply from American to European. Luckily, the power supply that netgate sent me works with 100V-240V input, which means I can use it here, with our European 220V power. Neat!</p>
+
+<p>The most important extra item you will definitely need, if you buy an unassembled kit, is a CF card reader. You need the CF card reader so that you can write the OS image on the blank CF card you will receive with the kit.</p>
+
+<p><a href="/wp-content/uploads/2013/09/fyeahbsd.png"><img src="/wp-content/uploads/2013/09/fyeahbsd-225x300.png" alt="The powered by FreeBSD sticker was not included." /></a></p>
+
+<p>Assembling the physical parts was, as expected, fairly simple. There were no instructions but, as with most electronic equipment, there is only one (usually obviously) correct way to put it together; which means that if it fits, you are doing it right.</p>
+
+<p>There was one odd thing I noticed before starting the assembly. Once you screw the board on the case, it is impossible to remove (or insert) the CF card. If you decide to remove the CF card from an assembled ALIX kit, you need to open the case by removing four screws and then, by removing another four screws, detach the entire board from the case. This could have been solved by cutting out a slot in the case to allow for removal of the CF card. I’m not sure why it hasn’t been done. Practically, I don’t expect this to be a problem as I don’t plan on removing the CF card anytime soon. It’s a router. It should reside in some dark corner of my house, routing my internets. I shouldn’t need to be tinkering with it after it is set up and “in production”. But still, it would have been better if this wasn’t an issue.</p>
+
+<p><a href="/wp-content/uploads/2013/09/alix_overview.png"><img src="/wp-content/uploads/2013/09/alix_overview-300x225.png" alt="alix overview" /></a>
+<a href="/wp-content/uploads/2013/09/cf_blocked.png"><img src="/wp-content/uploads/2013/09/cf_blocked-300x225.png" alt="cf blocked" /></a></p>
+
+<p>Due to the aforementioned issue, I decided to set up pfsense before placing the board inside the case. Just in case…</p>
+
+<p>Which brings us to pfsense.</p>
+
+<p>There are a few different versions of pfsense which you can download and install. For my purposes, I needed the embedded 4GB version which works best with systems like the ALIX board. Details <a href="http://pfsense.org/index.php@option=com_content&amp;task=view&amp;id=43&amp;Itemid=44.html">here</a>. I downloaded the image, and followed the <a href="http://doc.pfsense.org/index.php/InstallationGuide">pfsense installation guide</a> to write it to the CF card and boot for the first time. Since the ALIX.2D13 doesn’t have a graphics output, I had to use my console cable to communicate with the device and do the initial setup. That was as easy as saying:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="gp">$ </span>sudo screen /dev/ttyS0</code></pre></figure>
+
+<p>And boom! We have a terminal. Pfsense just asks you stuff and you say “yes” or “no” and pfsense takes care of the rest. Soon enough pfsense is on your network with its fancy web interface. Easy stuff. No problem. But alas! here comes the tricky part. And it has nothing to do with pfsense.</p>
+
+<p>In my part of the world (Greece), ISPs give you DSL connections with PPPoE. A DSL connection means that you need a DSL modem to take the signal traveling on the old phone network and make it into something digital. “And what’s so tricky about that?” you might ask. “Can’t you just get a DSL modem?”. Well, I’m glad you asked. Let me tell you. No, you can’t really just get a DSL modem. You can get a DSL <em>modem/router</em>. But I’m unaware of anyone, at least locally, selling DSL <em>modems</em>. The trouble with modem/routers is that they want to do everything and I just want them to do the <em>modem</em> part. I don’t want them to do routing, dhcp, NAT, wireless and the kitchen sink. Most of all, I don’t want them to establish the PPPoE connection. I want <em>my router</em> to do all those things. How do we achieve this?</p>
+
+<p>I’m still unclear as to how exactly this works but, apparently, what I need is something referred to as “bridged PPPoE” or “br1483”. It seems to me that br1483 refers to <a href="https://www.rfc-editor.org/rfc/rfc1483.txt">RFC1483</a>, but after briefly skimming through RFC1483 I still don’t understand exactly what it’s about. Bellow are the settings I used on my ADSL modem/router:</p>
+
+<p><a href="/wp-content/uploads/2013/09/adsl.png"><img src="/wp-content/uploads/2013/09/adsl-300x165.png" alt="adsl modem/router" /></a><br />
+This is from the web interface of a netis DL-4302 DSL modem/router</p>
+
+<p>Finally, after tinkering all day with 3 different modem/routers, the settings above worked. Ι went into pfsense, configured my WAN interface to connect to PPPoE and I was online.<br />
+<a href="/wp-content/uploads/2013/09/interface_details.png"><img src="/wp-content/uploads/2013/09/interface_details-300x291.png" alt="interface details" /></a>
+<a href="/wp-content/uploads/2013/09/interfaces.png"><img src="/wp-content/uploads/2013/09/interfaces-300x110.png" alt="nterfaces" /></a></p>
+
+<p>I’ve been online with pfsense for only a few days now. I’ve set up all the very basic configurations such as choosing IP networks for my interfaces, making DHCP static mappings for my own computers and the printer, forwarding certain ports, testing bandwidth with iperf etc. So far everything has been working great. But these are only the basics. Pfsense offers a lot more functionality and I’m curious to see how much I can get out of the ALIX board before it starts being unreliable. In any case though, I’m just happy that I finally own my network.</p>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">computers, linux, open source</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>computers, linux, open source</li>
+          <li><a href="mailto:george@usermod.net">george@usermod.net</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/lathan"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">lathan</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>I'm George Angelopoulos and I like computers. I write stuff in this blog here, occasionally.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
