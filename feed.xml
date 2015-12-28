@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 Dec 2015 15:04:28 +0100</pubDate>
-    <lastBuildDate>Sat, 26 Dec 2015 15:04:28 +0100</lastBuildDate>
+    <pubDate>Mon, 28 Dec 2015 13:33:27 +0100</pubDate>
+    <lastBuildDate>Mon, 28 Dec 2015 13:33:27 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -140,53 +140,32 @@ This is from the web interface of a netis DL-4302 DSL modem/router&lt;/p&gt;
     
       <item>
         <title>Love requires the devil, apparently.</title>
-        <description>&lt;p style=&quot;text-align: left;&quot;&gt;
-  I have a software package on my system called “devil” and it’s required by “love”. I thought only FreeBSD worshiped satan.
-&lt;/p&gt;
-&lt;figure id=&quot;attachment_84&quot; style=&quot;width: 178px&quot; class=&quot;wp-caption aligncenter&quot;&gt;
+        <description>&lt;p&gt;I have a software package on my system called “devil” and it’s required by “love”. I thought only FreeBSD worshiped satan.&lt;/p&gt;
 
-[&lt;img class=&quot;size-full wp-image-84 &quot; title=&quot;the FreeBSD logo&quot; alt=&quot;beastie&quot; src=&quot;http://www.usermod.net/wp-content/uploads/2013/08/beastie.png&quot; width=&quot;178&quot; height=&quot;196&quot; /&gt;][1]&lt;figcaption class=&quot;wp-caption-text&quot;&gt;the FreeBSD logo&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2013/08/beastie.png&quot; alt=&quot;devil&quot; /&gt;&lt;/p&gt;
 
-&lt;p style=&quot;text-align: left;&quot;&gt;
-  &lt;p&gt;
-    I’m confused.
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;nbsp;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;nbsp;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;code&gt;george@arch-pc ~ % pacman -Qi devil&amp;lt;br /&amp;gt;
-&amp;lt;strong&amp;gt;Name           : devil&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;
-Version        : 1.7.8-16&amp;lt;br /&amp;gt;
-Description    : Library for reading several different image formats&amp;lt;br /&amp;gt;
-Architecture   : i686&amp;lt;br /&amp;gt;
-URL            : &amp;lt;a href=&quot;http://openil.sourceforge.net/&quot; target=&quot;_blank&quot;&amp;gt;http://openil.sourceforge.net/&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;
-Licenses       : GPL&amp;lt;br /&amp;gt;
-Groups         : None&amp;lt;br /&amp;gt;
-Provides       : None&amp;lt;br /&amp;gt;
-Depends On     : libpng  libmng  jasper  lcms  openexr&amp;lt;br /&amp;gt;
-Optional Deps  : None&amp;lt;br /&amp;gt;
-&amp;lt;strong&amp;gt;Required By    : love&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;
-Optional For   : None&amp;lt;br /&amp;gt;
-Conflicts With : None&amp;lt;br /&amp;gt;
-Replaces       : None&amp;lt;br /&amp;gt;
-Installed Size : 1341.00 KiB&amp;lt;br /&amp;gt;
-Packager       : Laurent Carlier &amp;lt;lordheavym@gmail.com&amp;gt;&amp;lt;br /&amp;gt;
-Build Date     : Sun 28 Apr 2013 12:52:20 PM EEST&amp;lt;br /&amp;gt;
-Install Date   : Tue 04 Jun 2013 04:20:09 PM EEST&amp;lt;br /&amp;gt;
-Install Reason : Installed as a dependency for another package&amp;lt;br /&amp;gt;
-Install Script : Yes&amp;lt;br /&amp;gt;
-Validated By   : Signature&lt;/code&gt;
-  &lt;/p&gt;
+&lt;p&gt;I’m confused.&lt;/p&gt;
 
- [1]: http://www.freebsd.org/
-&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt; pacman -Si love                                                                                                                                                                                                                                          :&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+ Repository     : community
+ Name           : love
+ Version        : 0.10.0-1
+ Description    : An open-source 2D game engine which uses the versatile Lua scripting language to create dynamic gaming experiences
+ Architecture   : x86_64
+ URL            : http://love2d.org/
+ Licenses       : zlib
+ Groups         : None
+ Provides       : None
+ Depends On     : luajit  physfs  freetype2  devil  mpg123  openal  libvorbis  libmodplug  sdl2  shared-mime-info  hicolor-icon-theme  desktop-file-utils  libtheora
+ Optional Deps  : None
+ Conflicts With : None
+ Replaces       : None
+ Download Size  : 771.71 KiB
+ Installed Size : 2993.00 KiB
+ Packager       : Sven-Hendrik Haase &amp;lt;sh@lutzhaase.com&amp;gt;
+ Build Date     : Tue 22 Dec 2015 09:47:03 PM CET
+ Validated By   : MD5 Sum  SHA256 Sum  Signature&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 </description>
         <pubDate>Wed, 28 Aug 2013 00:00:00 +0200</pubDate>
         <link>/love-requires-the-devil-apparently/</link>
