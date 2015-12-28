@@ -1,23 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>computers, linux, open source</title>
-    <description>I&#39;m George Angelopoulos and I like computers. I write stuff in this blog here, occasionally.
+    <title>usermod.net</title>
+    <description>I'm George Angelopoulos and I like computers, cycling, cats, and other things.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Dec 2015 14:11:41 +0100</pubDate>
-    <lastBuildDate>Mon, 28 Dec 2015 14:11:41 +0100</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <link>https://usermod.net/</link>
+    <atom:link href="https://usermod.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Jan 2021 21:13:46 +0200</pubDate>
+    <lastBuildDate>Mon, 18 Jan 2021 21:13:46 +0200</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
     
+      
+      <item>
+        <title>Why use Linux?</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://usermod.net/media/soldier.jpg&quot; alt=&quot;soldier computer&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Occasionally, people find out (i.e. I tell them) that I use Linux on my computer.&lt;/p&gt;
+
+&lt;p&gt;And then they’re like: &lt;em&gt;“But y tho?”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s not clear why anybody would go into the trouble of using Linux. The usual assumption is that Linux is hard to use, and there are some programs that just don’t work on it. It seems that the only possible reason to use Linux would be as a hobby. Maybe Linux users simply have too much free time to waste on getting Linux to work as opposed to normal people who have jobs, families and other more important things to keep them busy.&lt;/p&gt;
+
+&lt;p&gt;So how did I end up using Linux and why would anyone else use it?&lt;/p&gt;
+
+&lt;h1 id=&quot;linux-is-pretty-cool&quot;&gt;Linux is pretty cool&lt;/h1&gt;
+&lt;p&gt;I learned about Linux on my first IT job and I therefore assumed that the reason I use Linux is because of my work. I also assumed that other people who use Linux at their job would also be using it on their personal computers.&lt;/p&gt;
+
+&lt;p&gt;It turns out, both of these assumptions are false.&lt;/p&gt;
+
+&lt;p&gt;In fact, if you look at random web developers or sysadmins, odds are they use Windows or macOS on their work computer even though they might be managing Linux servers. When I worked at Red Hat, where Linux is &lt;em&gt;their main thing&lt;/em&gt;, sure, people used Fedora (a Linux distribution) on their work laptops. But many of them would have a Windows computer at home which they used as a gaming and facebook machine. Linux was just their job.&lt;/p&gt;
+
+&lt;p&gt;I mentioned I learned Linux on my first job. But I actually didn’t &lt;em&gt;need&lt;/em&gt; to learn it for work! The infrastructure I was managing consisted almost exclusively of Windows workstations, connected to Windows Servers. The real reason I learned Linux there was because the two people managing the IT department were passionate about it and they were willing to teach me the basics.&lt;/p&gt;
+
+&lt;p&gt;What immediately caught my attention was how it looked. Both the IT guys ran a distribution of Linux on their computers but they looked nothing alike! While everybody else was stuck complaining about the jarring change from Windows XP to Vista, and broke college students like myself would never even think of laying eyes on an Apple computer, here were these IT guys who just happened to have two interfaces that looked and felt different from anything I’d seen before and even from each other.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usermod.net/media/Screenshot_of_Ubuntu_9.04_with_GNOME_2.26.png&quot;&gt;&lt;img src=&quot;https://usermod.net/media/800/Screenshot_of_Ubuntu_9.04_with_GNOME_2.26-800.jpg&quot; alt=&quot;ubuntu 9.04&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;What I was looking at were called “desktop environments” and while different Linux distributions had a different one installed by default, there was no standard one. There were actually a half-dozen different ones that you could use. You could simply uninstall one and install another. You could even install multiple desktop environments and log into whichever one you felt like when you booted your computer, and as if that wasn’t enough, each one was practically infinitely customizable.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usermod.net/media/Kubuntu-9.04-DesktopEffects.png&quot;&gt;&lt;img src=&quot;https://usermod.net/media/800/Kubuntu-9.04-DesktopEffects-800.jpg&quot; alt=&quot;kubuntu 9.04&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I soon learned that this variety of choice did not stop at the superficial level of the look and feel of the desktop environments. At every level of the system, from how menus are laid-out to how software updates were managed, everything was fully customizable. There were never any licenses you had to buy, you never had to download a mysterious crack.exe from a torrent. In the rare case that your computer crashed or encountered some other fatal error, instead of a blue screen that leaves you guessing as to what the actual problem was, you would get precise error messages telling you &lt;em&gt;exactly&lt;/em&gt; what the problem was. You never had to guess or perform a voodoo reboot ritual hoping that the problem will magically go away. Linux told you what the problem was. It was up to you to read, understand, and fix it.&lt;/p&gt;
+
+&lt;p&gt;The reboot rituals are worth elaborating on. This is something that people just do and they don’t think twice about it, because they have no other option. If the computer or the mobile device is stuck or not working in some way, you just reboot and hope for the best. On a Windows or a macOS operating system there is a limit on how much of the system is visible to you, so you can’t do any meaningful troubleshooting. Often the reboot works. But you never learn the cause of the problem and you are powerless to prevent it from happening again. Switching to Linux causes a massive shift in mindset. In Linux, unless the computer is completely unresponsive, it is always possible to figure out what is happening without rebooting. Not only that, but rebooting will ruin your chance to figure out the problem. You go from thinking of reboots as a solution to thinking of them as a failure.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://usermod.net/media/gits-typing.gif&quot; alt=&quot;typing&quot; class=&quot;img-fullwidth&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All this customizability and control over the system stems from the core element that makes Linux different: &lt;em&gt;Linux is free software&lt;/em&gt;. “Free” here does not refer to the price, although free software usually is free in this sense, but rather it refers to “freedom”. The opening paragraph of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Free_software&quot;&gt;wikipedia article on free software&lt;/a&gt; explains this succinctly.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Free software (or libre software) is computer software distributed under terms that allow users to run the software for any purpose as well as to study, change, and distribute it and any adapted versions. Free software is a matter of liberty, not price: all users are legally free to do what they want with their copies of a free software (including profiting from them) regardless of how much is paid to obtain the program. Computer programs are deemed “free” if they give end-users (not just the developer) ultimate control over the software and, subsequently, over their devices.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Even if you don’t use Linux, you are using some free software likely without realizing it. Most internet browsers (Brave, Chromium, Firefox) are free software. Even operating systems that aren’t completely free (Android, macOS, iOS) rely heavily on free software components. Most notably, the infrastructure of the Internet is almost all Linux. Whenever you visit a website, or use a mobile app, or interact with the nebulous concept of “the cloud” you are actually connecting to a Linux sever.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-isnt-everybody-using-linux&quot;&gt;Why isn’t everybody using Linux?&lt;/h1&gt;
+
+&lt;p&gt;All this raises an obvious question: If Linux gives you more freedom and it is capable enough to have taken over the Internet, then why aren’t we all using Linux on our personal computers? This is in part a historical question to which the answer would make this post longer than I would like, so I will rephrase it to consider only the present:&lt;/p&gt;
+
+&lt;p&gt;What would prevent you from switching to Linux today?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://usermod.net/media/cdrom monitor anime.gif&quot; alt=&quot;cdrom monitor anime&quot; class=&quot;img-fullwidth&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A candidate answer is that Linux is hard to use. This however is a misconception. Linux on a basic level is as easy to use as Windows or macOS. This is not just a theoretical assumption on my part but a fact I know from personal experience. I have twice now given a computer with Linux installed to two different relatives. One of them was in their twenties and the other in their seventies. They used their Linux computers on a daily basis and they had no issues that they wouldn’t have had with Windows. Even installing it is easy. It used to be that installing Linux in the first place was a feat of computer wizardry, a proper rite of passage. But this has not been the case for over a decade. Today Linux is trivially simple to install, easier even than Windows. This brings us to the next possible issue.&lt;/p&gt;
+
+&lt;p&gt;Some hardware is not compatible with Linux. Again, this used to be a much bigger problem in the past. Today the vast majority of personal computers will work just fine with Linux. The real issue here is that in the odd case where a hardware component isn’t supported in Linux, the perceived cost is too high. Nobody wants to pay 1000 euro for a high-end laptop and then find out that the WiFi or the webcam don’t work on Linux. Sure, you can work around it most of the time by using some alternative external device. But objectively, it’s at least an unpleasant experience.&lt;/p&gt;
+
+&lt;p&gt;The first, in my view, legitimate obstacle is software compatibility: A lot of important professional software is not written for and not supported on Linux. Consider for example some of the industry leading software a 3D artist will likely use: 3ds Max, Maya, ZBrush, Cinema 4d, OctaneRender, Substance Painter, Blender. Out of these, only the last three are supported on Linux and only Blender is free software. This is actually pretty good. It’s already more Linux support than video editing software. But if you are a &lt;em&gt;professional&lt;/em&gt;, it’s just not good enough. If you switch to Linux there are already four important programs that you won’t have access to. You will be missing out on potential competitive advantages that your competitors will have by having access to all the features of all available software in the given industry. In this situation, having a more free computer doesn’t seem worth it if you can’t use it to do your job effectively.&lt;/p&gt;
+
+&lt;p&gt;Reliance on specialized professional hardware is, in my estimation, less common than software, but eventually the problem is the same.&lt;/p&gt;
+
+&lt;p&gt;But what about gaming?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://usermod.net/media/ps4-anime.gif&quot; alt=&quot;ps4 controller anime&quot; class=&quot;img-fullwidth&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The situaton is similar. If gaming is your number one priority, you should use Windows. There will be some games that don’t work on Linux. But the reality is that a massive amount of games do work. I do in fact play more games and a wider variety of games than a lot of people, from titles everybody’s heard of, like DOOM and Skyrim, to indie games that nobody has ever heard of, like Velocibox and Devil Daggers. This topic deserves its own post. But for now I’ll just say that video games have always been and will continue to be important to me, and Linux hasn’t changed this.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-it-actually-means-to-use-linux&quot;&gt;What it actually means to use Linux&lt;/h1&gt;
+&lt;p&gt;Now, let’s assume that any hardware or software you use for your job is perfectly functional on Linux. There is still one subtle obstacle towards software freedom:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;People expect things to “just work”. But the degree to which a thing “just works” is the degree to which it will eventually and inevitably “just break”.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is true regardless of what operating system you use. A person who installs Ubuntu (a Linux distribution) and never has the curiosity or the patience to learn how it works internally and how all the components of the operating system interact might as well be using Windows or macOS. They will eventually encounter a situation where the computer does something unexpected or just breaks in some way and they will be equally clueless about how to fix it as if they were using Windows. Linux cannot magically make this person more free and empowered in the way they use the computer. It only makes it &lt;em&gt;possible&lt;/em&gt; by providing a free and open system. But assuming control of the system in a meaningful way requires intentionality and effort. It is ultimately a deeply personal choice.&lt;/p&gt;
+
+&lt;p&gt;Taking control of your computer is also not a choice you can make once and be done with it. It is a lifestyle choice, a continual process, much like a healthy diet, regular exercise, and an intellectually stimulating profession or activity. Maintaining a Linux computer that you actually control in a meaningful way is a life-long process.&lt;/p&gt;
+
+&lt;p&gt;I embarked on this journey back in 2009. I had done some test installations of Linux on a virtual machine and was ready to do the real deal. I wiped Windows from my personal computer at home, I installed Ubuntu, and I’ve never looked back since. Today my computer looks &lt;em&gt;nothing&lt;/em&gt; like it did that day in 2009. I don’t use Ubuntu any more, I use Arch Linux. I don’t even use a desktop environment. I use a more minimalistic window manager instead.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usermod.net/media/screenshot-linux.png&quot;&gt;&lt;img src=&quot;https://usermod.net/media/800/screenshot-linux-800.jpg&quot; alt=&quot;screenshot linux i3 window manager tmux neovim screenfetch&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are some other practical consequences of how I use my computer. Because Arch Linux is a rolling release distribution, I never have to re-install it because of a new release, ever. The last time I re-installed was in 2017 and that was only because I swapped out my spinning hard drive for an SSD. Even then, everything custom about my system I simply copied over to the new installation. But beyond this, when was the last time I actually did a fresh installation? It must have been 2013, when I put together the hardware for this computer. To put it simply, my operating system is fully up to date and I practically haven’t re-installed it in eight years.&lt;/p&gt;
+
+&lt;p&gt;I will also never be interrupted by an auto-updater. I download and install updates whenever I choose.&lt;/p&gt;
+
+&lt;p&gt;More notably, when some update breaks something I know exactly what caused it, and how to fix it or revert it until it is fixed. Even if a failed update causes the computer to not boot (this has only happened to me once), fixing it is a matter of minutes.&lt;/p&gt;
+
+&lt;p&gt;The result of this degree of control is a kind of peace of mind that no Windows or macOS user can ever hope for, no matter how smart they are or how much time they’ve put into learning about their computer. Getting to this level where you have an intimate understanding of how your computer works does require effort. Even IT professionals who work with Linux servers every day won’t automatically know how to manage a Linux desktop system. The opposite is also true: managing your Linux computer will not make you a professional system administrator (although it’s a very good first step). Any way you look at it, there are no shortcuts. Freedom, to use the old cliché, is not free. But it is attainable without having to make it your full-time job.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-the-value-of-freedom&quot;&gt;What is the value of Freedom?&lt;/h1&gt;
+&lt;p&gt;I use Linux because it allows me a greater degree of freedom. This is quite a long post, and if you’ve read this far, chances are there is something about this that resonates with you. In that case, I urge you to consider your freedom. The next time you have to decide to use a piece of software, or buy a computer, or choose a professional career, ask yourself: &lt;em&gt;will using this technology make me more free or less free?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m not even suggesting that you should always choose freedom. I certainly don’t. I still rely on some non-free software, I do use a mobile device (in a limited way), and I generally trade some of my autonomy to gain other advantages from the society around me. Freedom is a bit like safety and security. If safety was your number one priority you would never leave the house (although this has become a very popular strategy at the time of writing). Likewise, if freedom was your number one priority, you might choose to live in a cabin in the woods away from civilization (a less popular choice but you’d be surprised at how many people choose it). I am merely suggesting making freedom a consideration. Instead of accepting the ever growing complexity of technology unquestioningly, consider in every situation how it affects your freedom and if it is worth it for you to surrender this freedom for what technology gives you in return.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day, nobody else can pay for your freedom. While free software continues to exist thanks to the never ending work of an army of &lt;a href=&quot;http://catb.org/~esr/faqs/hacker-howto.html#what_is&quot;&gt;hackers&lt;/a&gt; who will never be rich or famous, their collective hacking wizardry cannot liberate you from your digital chains. The mythical “Year of the Linux Desktop” will never come and even if it does, it means nothing. You can only have and maintain freedom analogous to the degree of effort you put into it. The majority of people will always be too busy with things that are more important than their freedom. If contrary to that, you belong to the minority of people who can afford the luxury of using technology on their own terms, use Linux.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://usermod.net/media/computer wizard.jpg&quot; alt=&quot;computer wizard&quot; class=&quot;img-fullwidth&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Jan 2021 00:00:00 +0200</pubDate>
+        <link>https://usermod.net/why-use-linux/</link>
+        <guid isPermaLink="true">https://usermod.net/why-use-linux/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Why I deleted my Facebook and why you should too</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://usermod.net/media/thinking emoji textured surface.png&quot; alt=&quot;hmmmmmmmm&quot; class=&quot;img-center&quot; /&gt;&lt;br /&gt;
+I signed up with Facebook some time in 2009. Eleven years later, this past June, I decided it was finally time to delete my account.&lt;br /&gt;
+Here’s why:&lt;/p&gt;
+
+&lt;h1 id=&quot;you-are-under-surveillance&quot;&gt;You are under surveillance&lt;/h1&gt;
+&lt;p&gt;Everyone gets this by now. It’s not even a malignancy exclusive to social media as it includes the companies that manage the search engines, internet browsers, operating systems, smart TVs, home assistants, and robotic vacuum cleaners you use. But I’ll state the obvious anyway: Facebook tracks your entire life.&lt;/p&gt;
+
+&lt;p&gt;It used to be that Facebook only had the data you actively gave it, such as your relationship status, who you are in a relationship with, who your meatspace friends are, photos of your face. It used to be that many of us didn’t even give Facebook our real names or photos of our faces. In fact, my first Facebook profile photo was just white text on a black background spelling “GTFO!”.&lt;/p&gt;
+
+&lt;p&gt;Fast-forward to today where it’s almost impossible to create an anonymous Facebook account. Through a combination of strict verification processes and undisclosed heuristics based on where and how you connect to the service, it will eventually demand your true identity or ban your aspiring pseudonymous account. This is something most people are not aware of because &lt;em&gt;they haven’t tried it&lt;/em&gt;. But my friends and I &lt;em&gt;have tried it&lt;/em&gt;, and we know. Making an account on Facebook without revealing your real identity is practically impossible.&lt;/p&gt;
+
+&lt;p&gt;Once Facebook has your real identity, it can start not only collecting data on your life but also mapping your social network, i.e. all the other people in your life. It does this without requiring their consent and often in ways that they might never find out. To add insult to injury, its facial recognition software will detect faces in your photographs and ask you to be the one to snitch on your friends, documenting their names and their location on the date of the photograph. The fact that Facebook will allow you to select which of your Facebook friends will be allowed to view these photos provides you a false sense of privacy conveniently distracting from the fact that Facebook itself always has access to all of this data.&lt;/p&gt;
+
+&lt;p&gt;The next crucial step to complete the surveillance apparatus is to install the Facebook app on your mobile device. Just make sure to grant it access to your location data. Here Facebook will spare you the humiliation of having to actively rat out all the people you come into contact with. As long as they also have the app the ratting out will be automated. It’s now a trivial matter to link all the people who were at the same place at a specific time.&lt;/p&gt;
+
+&lt;p&gt;Facebook’s messenger app is the cherry on top which gives them access to all your conversations. They don’t really &lt;em&gt;need&lt;/em&gt; the contents of your messages. In the post-Snowden world we understand that &lt;em&gt;metadata&lt;/em&gt; is king. Metadata is enough to know almost everything about you. Reading all your messages is just the victory lap, a flex, an affirmation that they totally own you.&lt;/p&gt;
+
+&lt;p&gt;All of this data is stored forever in redundant copies in datacenters across the world. It will be available for Facebook to use in any way they want. It is also automatically shared with U.S.A. and government agencies of other countries, and it’s available on demand from all the other governments who don’t have their surveillance systems fully automated yet.&lt;/p&gt;
+
+&lt;h1 id=&quot;feeds-modify-your-behavior&quot;&gt;Feeds modify your behavior&lt;/h1&gt;
+&lt;p&gt;It is my impression that people view their feeds as a convenient summary of their friends’ activities. But the social media feeds are not a simple and impartial report. They are instead, streams of &lt;em&gt;curated&lt;/em&gt; information. They are produced by algorithms which purportedly attempt to determine what information you will find interesting. The feeds also include items you never actively asked for, under the assumption that this information you weren’t exposed to before is something you will find interesting.&lt;/p&gt;
+
+&lt;p&gt;Behind this perception lies an unwarranted assumption of benevolence. Supposedly, the reason the feed algorithm chose to show you some things and omit others was just to make the feed more relevant to your interests. The feed algorithm just wants what’s best for you.&lt;/p&gt;
+
+&lt;p&gt;But the feed algorithm is controlled by people who have the power to chose what goes in it and what stays out. Could it be that the situation is exactly the reverse of the advertised benevolence? Could it be that the people in charge of the giant tech companies intentionally shape the information in your feed to attempt to influence what you think? There is no reason to assume this is not happening. They have both the means and the motivation to do it.&lt;/p&gt;
+
+&lt;p&gt;Taking this one step further, in the vacuum left by the information that has been purged from these platforms they are now free to insert controlled opposition: information which mimics the true information you would want to have access too, but which has been neutered and sanitized to conform with the goals of your masters.&lt;/p&gt;
+
+&lt;p&gt;Indeed, “feed” is an apt term to describe the nature of this steady trickle of information curated for us by our tech oligarchs. You are fed a diet chosen by them and you are what you eat. This naming remains in the spirit of the previous generation’s method of mass control which they called “programming” and was delivered through the television and radio.&lt;/p&gt;
+
+&lt;h1 id=&quot;social-media-makes-everybody-dishonest&quot;&gt;Social media makes everybody dishonest&lt;/h1&gt;
+
+&lt;p&gt;Everything in social media is driven by reward points: likes, upvotes, hearts, whatever they are called on each platform. These are all designed to be addictive and highly coveted by the user. The result is that every action you take on social media is motivated by how many likes it will give you. The content of your posts, their quality, their timing and frequency, it is all about getting the upvotes. Whatever original purpose there might have been in you posting anything on the internet, it is now superseded by the pursuit of likes.&lt;/p&gt;
+
+&lt;p&gt;People might comment on your posts, but for them the comments serve the same function: they exist primarily to be noticed and accrue likes. There is therefore no reason for their comment to be insightful, constructive, or just basely honest. It just has to be maximally popular to have the best chance to receive the most likes. It’s also pointless to comment on posts that are not popular. So the more popular you and your posts are, the more appealing they will be for vacuous commenters. If in this situation there was ever a comment that was motivated by something other than likes, and if you were able to notice it within the noise of the vacuous comments, it would be hard to tell it apart from the rest.&lt;/p&gt;
+
+&lt;p&gt;Facebook specifically has the additional limitation of not having a “dislike” button. Expressing disagreement or disapproval is prohibited.&lt;/p&gt;
+
+&lt;p&gt;In short, if there’s no dislike button, honesty is prohibited. If there’s a like button, flattery is dishonest.&lt;/p&gt;
+
+&lt;p&gt;Every point I’ve made so far is in no way unique. I’m not the first and won’t be the last to point out the surveillance situation and the perverse incentives of likes. But the following point is something I haven’t seen anybody else talk about, and it is this:&lt;/p&gt;
+
+&lt;h1 id=&quot;likes-define-the-levels-of-reality&quot;&gt;“Likes” define the levels of reality&lt;/h1&gt;
+&lt;p&gt;If something happens in your life and you don’t post about it on Facebook, it’s like it never happened at all.&lt;/p&gt;
+
+&lt;p&gt;My wife, Cleopatra, first noticed this. Cleopatra had a Facebook friend, let’s call her Alice. Alice had a very close friend who died. She did not post anything about this on Facebook. Cleopatra learned about it from the deceased person’s Facebook. So Cleopatra messaged Alice to express her condolences and ask how she was and if she wanted to meet for a coffee to not be completely alone. Note that we had never even met this person before in meatspace. She was basically something less than an acquaintance, a true “Facebook friend”.&lt;/p&gt;
+
+&lt;p&gt;After chatting with her for a while, Cleopatra realized that almost none of Alice’s Facebook friends who must have been aware of this loss (the same way Cleopatra learned about it) had thought to contact Alice to express the simple customary condolences. This made us think. How different would the situation be if Alice had made a dramatic post about it? It’s reasonable to assume that there would be a plethora of “sad face” reactions and comments expressing the deepest sympathies of the authors. Her Facebook friends would be competing for the most heartfelt and original comment and the winner would receive the most likes.&lt;/p&gt;
+
+&lt;p&gt;But because she didn’t post about it and she never appeared directly on her Facebook friends’ feeds, nothing happened. And why would anybody contact her otherwise? There were no likes to be had.&lt;/p&gt;
+
+&lt;p&gt;A person’s death is an extreme example. But it took an extreme example to make us notice that for people addicted to social media, reality is defined by the opportunity to acquire likes. The value of your human relationships is quantified by likes, and anything that cannot provide likes does not exist.&lt;/p&gt;
+
+&lt;h1 id=&quot;anything-you-post-is-forgotten&quot;&gt;Anything you post is forgotten&lt;/h1&gt;
+&lt;p&gt;We understand now that if you don’t post on social media, you don’t exist. But what if you actually want to post? What if you still want to share your ideas, your photos, your jokes, what you ate for lunch for some reason other than acquiring likes? Then Facebook is still not for you.&lt;/p&gt;
+
+&lt;p&gt;Facebook uses your posts as opportunities to receive likes and also to keep people hooked on novelty. Your posts only have value for a couple of days at most. After this, the post is no longer novel. There are new posts for the algorithm to put into feeds. Your two-day-old post goes down the memory hole. There is no convenient way to find it later and nobody will go looking for it. If somebody for some strange reason decides to visit your profile, only your latest posts will be prominently featured. You do not have the option to permanently feature something else and no convenient way to link to an old post from within a new one.&lt;/p&gt;
+
+&lt;p&gt;Suppose then that you want to write a 2000-word post about social media and that you take your time to include all your thoughts and structure them in a way that makes sense. It would be a complete waste of time to post this on Facebook. You might as well print it out and light it on fire. That would at least be entertaining.&lt;/p&gt;
+
+&lt;h1 id=&quot;reject-modernity-embrace-tradition&quot;&gt;Reject modernity, embrace tradition&lt;/h1&gt;
+&lt;p&gt;Back in the old days of the internet (until roughly a decade ago) people used to have blogs. A blog is not much more than a website that you occasionally update with articles or “posts”. There would be all kinds of different blogs. Some were about specific topics, some would be a little about everything, some were authored by a single person and others had multiple authors. In fact, even after Facebook, Twitter, and Instagram took over everything, some stubborn curmudgeons never relinquished their old-fashioned blogs. I have more to say about blogs in a future post. But for now I’ll just say, in honor of the elders of the internet and traditional web values I have deleted my Facebook account and have resurrected my dormant blog. If you want to be my “blog friend” subscribe to my RSS and if you want to “comment”, send me an email.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 09 Oct 2020 00:00:00 +0300</pubDate>
+        <link>https://usermod.net/why-I-deleted-facebook-and-you-should-too/</link>
+        <guid isPermaLink="true">https://usermod.net/why-I-deleted-facebook-and-you-should-too/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Υμηττός morning ride</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://usermod.net/media/IMG_20201004_084306.jpg&quot;&gt;&lt;img src=&quot;https://usermod.net/media/800/IMG_20201004_084306-800.jpg&quot; alt=&quot;My bike at the top of Ymittos&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m fat and slow but I made it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usermod.net/media/2020-10-04-ymittos-anavasi-locus.jpg&quot;&gt;&lt;img src=&quot;https://usermod.net/media/800/2020-10-04-ymittos-anavasi-locus-800.jpg&quot; alt=&quot;ymittos anavasi locus map&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Last summer before getting into shape my time was 1:20. Today it was 1:05. I used to be able to do it in under 0:55. I need to lose at least 10kg.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0300</pubDate>
+        <link>https://usermod.net/ymhttos-morning-ride-fat-slow-bicycle-ascent/</link>
+        <guid isPermaLink="true">https://usermod.net/ymhttos-morning-ride-fat-slow-bicycle-ascent/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>My new photo gallery is live!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://usermod.net/media/IMG_20191213_155911.jpg&quot;&gt;&lt;img src=&quot;https://usermod.net/media/800/IMG_20191213_155911-800.jpg&quot; alt=&quot;chicken&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have a photo gallery now. You can find it at &lt;a href=&quot;https://pics.usermod.net&quot;&gt;https://pics.usermod.net&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2020 00:00:00 +0300</pubDate>
+        <link>https://usermod.net/new-photo-gallery-is-live/</link>
+        <guid isPermaLink="true">https://usermod.net/new-photo-gallery-is-live/</guid>
+        
+        
+      </item>
+      
+    
+      
       <item>
         <title>Greek Translation for OpenCart</title>
-        <description>&lt;p&gt;I’ve been busy lately, setting up a project with &lt;a href=&quot;http://opencart.com/&quot; target=&quot;_blank&quot;&gt;OpenCart&lt;/a&gt;. Since this is a website for a local store, it has to be in Greek. Unfortunately, all the Greek translations were out of date. Fortunately, this is open source! I’m happy to announce, I’ve taken one of the out-of-date translations, spent some time on it, given it &lt;a href=&quot;https://github.com/lathan/opencart-greek&quot; target=&quot;_blank&quot;&gt;a proper github repo&lt;/a&gt;, and &lt;a href=&quot;http://www.opencart.com/index.php?route=extension/extension/info&amp;amp;extension_id=14317&amp;amp;filter_search=greek&quot; target=&quot;_blank&quot;&gt;brought it up to date&lt;/a&gt;.&lt;br /&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://usermod.net/media/old-wp-content/uploads/2013/10/greek-icon.png&quot; alt=&quot;Greek translation for opencart&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been busy lately, setting up a project with &lt;a href=&quot;http://opencart.com/&quot; target=&quot;_blank&quot;&gt;OpenCart&lt;/a&gt;. Since this is a website for a local store, it has to be in Greek. Unfortunately, all the Greek translations were out of date. Fortunately, this is open source! I’m happy to announce, I’ve taken one of the out-of-date translations, spent some time on it, given it &lt;a href=&quot;https://github.com/lathan/opencart-greek&quot; target=&quot;_blank&quot;&gt;a proper github repo&lt;/a&gt;, and &lt;a href=&quot;http://www.opencart.com/index.php?route=extension/extension/info&amp;amp;extension_id=14317&amp;amp;filter_search=greek&quot; target=&quot;_blank&quot;&gt;brought it up to date&lt;/a&gt;.&lt;br /&gt;
 If I end up using OpenCart with this project and the project itself survives, you should expect this translation to be kept up-to-date.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 23 Oct 2013 00:00:00 +0200</pubDate>
-        <link>/greek-translation-for-opencart/</link>
-        <guid isPermaLink="true">/greek-translation-for-opencart/</guid>
+        <pubDate>Wed, 23 Oct 2013 00:00:00 +0300</pubDate>
+        <link>https://usermod.net/greek-translation-for-opencart/</link>
+        <guid isPermaLink="true">https://usermod.net/greek-translation-for-opencart/</guid>
         
         <category>github</category>
         
@@ -37,61 +252,28 @@ If I end up using OpenCart with this project and the project itself survives, yo
         <category>projects</category>
         
       </item>
+      
     
-      <item>
-        <title>Steam Controller!</title>
-        <description>&lt;p&gt;Following the very recent announcement of the &lt;a title=&quot;Steam Machines!&quot; href=&quot;http://store.steampowered.com/livingroom/SteamMachines/&quot; target=&quot;_blank&quot;&gt;steam machines&lt;/a&gt;, I went to apply for the hardware beta. There was some legal agreement which I would normally ignore and check the “I agree button.” But this time I didn’t. This time I read it. And there it was:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;Valve Corporation (“Valve”, “We”, “Us” or “Our”) has developed and produced prototypes of entertainment system hardware and software, including a set-top box running custom software and &lt;strong&gt;A GAME CONTROLLER&lt;/strong&gt; (collectively: “Beta Products”). These Beta Products are currently being prepared for a limited beta testing program (“Beta Program”) involving select end users of Our online service known as Steam (“Steam”).&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/steam_controller.png&quot; alt=&quot;beta test agreement&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Source: &lt;a href=&quot;https://store.steampowered.com/hardwarebeta&quot;&gt;https://store.steampowered.com/hardwarebeta&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 25 Sep 2013 00:00:00 +0200</pubDate>
-        <link>/steam-controller/</link>
-        <guid isPermaLink="true">/steam-controller/</guid>
-        
-        <category>gaming</category>
-        
-        <category>linux gaming</category>
-        
-        <category>steam</category>
-        
-        <category>steam controller</category>
-        
-        <category>steam machines</category>
-        
-        <category>SteamOS</category>
-        
-        <category>valve</category>
-        
-        
-        <category>news</category>
-        
-      </item>
-    
+      
       <item>
         <title>Review: ALIX.2D13 router with pfsense</title>
-        <description>&lt;p&gt;I recently got my hands on an ALIX.2D13 router board. No more crappy ISP routers for me!&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;UPDATE 2020-10-15:&lt;/strong&gt; &lt;em&gt;The ALIX.2D13 has a 32bit cpu. Pfsense stopped supporting 32bit architectures in 2018. If you stumbled on this page through a search engine, look for another board.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;I recently got my hands on an ALIX.2D13 router board. No more crappy ISP routers for me!&lt;/p&gt;
 
 &lt;p&gt;I specifically got an &lt;a href=&quot;http://store.netgate.com/ALIX2D3-2D13-Kit-Black-Unassembled-P172C82.aspx&quot;&gt;unassembled kit&lt;/a&gt; along with a &lt;a href=&quot;http://store.netgate.com/KIT-ALIX-5004MP-DUAL-P190C34.aspx&quot;&gt;miniPCI wireless card kit&lt;/a&gt;. Almost everything I needed came in the unassembled kit. The only extra items I had to find were some ethernet cables, a console (null modem) cable, and a very cheap &lt;a href=&quot;http://www.amazon.com/Bluecell-American-European-Outlet-Adapter/dp/B008M4LQM2/ref=sr_1_1?ie=UTF8&amp;amp;qid=1378187269&amp;amp;sr=8-1&amp;amp;keywords=american+european+adapter&quot;&gt;adapter&lt;/a&gt; to convert the pins on the power supply from American to European. Luckily, the power supply that netgate sent me works with 100V-240V input, which means I can use it here, with our European 220V power. Neat!&lt;/p&gt;
 
 &lt;p&gt;The most important extra item you will definitely need, if you buy an unassembled kit, is a CF card reader. You need the CF card reader so that you can write the OS image on the blank CF card you will receive with the kit.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2013/09/fyeahbsd.png&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/fyeahbsd-225x300.png&quot; alt=&quot;The powered by FreeBSD sticker was not included.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://usermod.net/media/old-wp-content/uploads/2013/09/fyeahbsd.png&quot;&gt;&lt;img src=&quot;https://usermod.net/media/old-wp-content/uploads/2013/09/fyeahbsd-225x300.png&quot; alt=&quot;The powered by FreeBSD sticker was not included.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Assembling the physical parts was, as expected, fairly simple. There were no instructions but, as with most electronic equipment, there is only one (usually obviously) correct way to put it together; which means that if it fits, you are doing it right.&lt;/p&gt;
 
 &lt;p&gt;There was one odd thing I noticed before starting the assembly. Once you screw the board on the case, it is impossible to remove (or insert) the CF card. If you decide to remove the CF card from an assembled ALIX kit, you need to open the case by removing four screws and then, by removing another four screws, detach the entire board from the case. This could have been solved by cutting out a slot in the case to allow for removal of the CF card. I’m not sure why it hasn’t been done. Practically, I don’t expect this to be a problem as I don’t plan on removing the CF card anytime soon. It’s a router. It should reside in some dark corner of my house, routing my internets. I shouldn’t need to be tinkering with it after it is set up and “in production”. But still, it would have been better if this wasn’t an issue.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2013/09/alix_overview.png&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/alix_overview-300x225.png&quot; alt=&quot;alix overview&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;/wp-content/uploads/2013/09/cf_blocked.png&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/cf_blocked-300x225.png&quot; alt=&quot;cf blocked&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://usermod.net/media/old-wp-content/uploads/2013/09/alix_overview.png&quot;&gt;&lt;img src=&quot;https://usermod.net/media/old-wp-content/uploads/2013/09/alix_overview-300x225.png&quot; alt=&quot;alix overview&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://usermod.net/media/old-wp-content/uploads/2013/09/cf_blocked.png&quot;&gt;&lt;img src=&quot;https://usermod.net/media/old-wp-content/uploads/2013/09/cf_blocked-300x225.png&quot; alt=&quot;cf blocked&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Due to the aforementioned issue, I decided to set up pfsense before placing the board inside the case. Just in case…&lt;/p&gt;
 
@@ -99,7 +281,7 @@ If I end up using OpenCart with this project and the project itself survives, yo
 
 &lt;p&gt;There are a few different versions of pfsense which you can download and install. For my purposes, I needed the embedded 4GB version which works best with systems like the ALIX board. Details &lt;a href=&quot;http://pfsense.org/index.php@option=com_content&amp;amp;task=view&amp;amp;id=43&amp;amp;Itemid=44.html&quot;&gt;here&lt;/a&gt;. I downloaded the image, and followed the &lt;a href=&quot;http://doc.pfsense.org/index.php/InstallationGuide&quot;&gt;pfsense installation guide&lt;/a&gt; to write it to the CF card and boot for the first time. Since the ALIX.2D13 doesn’t have a graphics output, I had to use my console cable to communicate with the device and do the initial setup. That was as easy as saying:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo screen /dev/ttyS0&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;screen /dev/ttyS0&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;And boom! We have a terminal. Pfsense just asks you stuff and you say “yes” or “no” and pfsense takes care of the rest. Soon enough pfsense is on your network with its fancy web interface. Easy stuff. No problem. But alas! here comes the tricky part. And it has nothing to do with pfsense.&lt;/p&gt;
 
@@ -107,84 +289,23 @@ If I end up using OpenCart with this project and the project itself survives, yo
 
 &lt;p&gt;I’m still unclear as to how exactly this works but, apparently, what I need is something referred to as “bridged PPPoE” or “br1483”. It seems to me that br1483 refers to &lt;a href=&quot;https://www.rfc-editor.org/rfc/rfc1483.txt&quot;&gt;RFC1483&lt;/a&gt;, but after briefly skimming through RFC1483 I still don’t understand exactly what it’s about. Bellow are the settings I used on my ADSL modem/router:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2013/09/adsl.png&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/adsl-300x165.png&quot; alt=&quot;adsl modem/router&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://usermod.net/media/old-wp-content/uploads/2013/09/adsl.png&quot;&gt;&lt;img src=&quot;https://usermod.net/media/old-wp-content/uploads/2013/09/adsl-300x165.png&quot; alt=&quot;adsl modem/router&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 This is from the web interface of a netis DL-4302 DSL modem/router&lt;/p&gt;
 
 &lt;p&gt;Finally, after tinkering all day with 3 different modem/routers, the settings above worked. Ι went into pfsense, configured my WAN interface to connect to PPPoE and I was online.&lt;br /&gt;
-&lt;a href=&quot;/wp-content/uploads/2013/09/interface_details.png&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/interface_details-300x291.png&quot; alt=&quot;interface details&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;/wp-content/uploads/2013/09/interfaces.png&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/interfaces-300x110.png&quot; alt=&quot;nterfaces&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://usermod.net/media/old-wp-content/uploads/2013/09/interface_details.png&quot;&gt;&lt;img src=&quot;https://usermod.net/media/old-wp-content/uploads/2013/09/interface_details-300x291.png&quot; alt=&quot;interface details&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://usermod.net/media/old-wp-content/uploads/2013/09/interfaces.png&quot;&gt;&lt;img src=&quot;https://usermod.net/media/old-wp-content/uploads/2013/09/interfaces-300x110.png&quot; alt=&quot;nterfaces&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I’ve been online with pfsense for only a few days now. I’ve set up all the very basic configurations such as choosing IP networks for my interfaces, making DHCP static mappings for my own computers and the printer, forwarding certain ports, testing bandwidth with iperf etc. So far everything has been working great. But these are only the basics. Pfsense offers a lot more functionality and I’m curious to see how much I can get out of the ALIX board before it starts being unreliable. In any case though, I’m just happy that I finally own my network.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 03 Sep 2013 00:00:00 +0200</pubDate>
-        <link>/review-alix-2d13-router-with-pfsense/</link>
-        <guid isPermaLink="true">/review-alix-2d13-router-with-pfsense/</guid>
+        <pubDate>Tue, 03 Sep 2013 00:00:00 +0300</pubDate>
+        <link>https://usermod.net/review-alix-2d13-router-with-pfsense/</link>
+        <guid isPermaLink="true">https://usermod.net/review-alix-2d13-router-with-pfsense/</guid>
         
-        <category>alix</category>
-        
-        <category>free software</category>
-        
-        <category>freebsd</category>
-        
-        <category>home router</category>
-        
-        <category>open source</category>
-        
-        <category>pfsense</category>
-        
-        <category>router</category>
-        
-        
-        <category>reviews</category>
         
       </item>
-    
-      <item>
-        <title>Love requires the devil, apparently.</title>
-        <description>&lt;p&gt;I have a software package on my system called “devil” and it’s required by “love”. I thought only FreeBSD worshiped satan.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2013/08/beastie.png&quot; alt=&quot;devil&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m confused.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt; pacman -Si love                                                                                                                                                                                                                                          :&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
- Repository     : community
- Name           : love
- Version        : 0.10.0-1
- Description    : An open-source 2D game engine which uses the versatile Lua scripting language to create dynamic gaming experiences
- Architecture   : x86_64
- URL            : http://love2d.org/
- Licenses       : zlib
- Groups         : None
- Provides       : None
- Depends On     : luajit  physfs  freetype2  devil  mpg123  openal  libvorbis  libmodplug  sdl2  shared-mime-info  hicolor-icon-theme  desktop-file-utils  libtheora
- Optional Deps  : None
- Conflicts With : None
- Replaces       : None
- Download Size  : 771.71 KiB
- Installed Size : 2993.00 KiB
- Packager       : Sven-Hendrik Haase &amp;lt;sh@lutzhaase.com&amp;gt;
- Build Date     : Tue 22 Dec 2015 09:47:03 PM CET
- Validated By   : MD5 Sum  SHA256 Sum  Signature&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-</description>
-        <pubDate>Wed, 28 Aug 2013 00:00:00 +0200</pubDate>
-        <link>/love-requires-the-devil-apparently/</link>
-        <guid isPermaLink="true">/love-requires-the-devil-apparently/</guid>
-        
-        <category>devil</category>
-        
-        <category>humor</category>
-        
-        <category>love</category>
-        
-        <category>open source</category>
-        
-        
-        <category>observational humor</category>
-        
-      </item>
+      
     
   </channel>
 </rss>

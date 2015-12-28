@@ -1,0 +1,14 @@
+@media print {
+    .site-header {
+        display: none;
+    }
+    .site-footer {
+        display: none;
+    }
+    .printhide {
+        display: none;
+    }
+    a {
+        color: black !important;
+    }
+}
