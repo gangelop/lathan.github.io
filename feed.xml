@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Dec 2015 13:33:27 +0100</pubDate>
-    <lastBuildDate>Mon, 28 Dec 2015 13:33:27 +0100</lastBuildDate>
+    <pubDate>Mon, 28 Dec 2015 13:45:07 +0100</pubDate>
+    <lastBuildDate>Mon, 28 Dec 2015 13:45:07 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -48,7 +48,9 @@ If I end up using OpenCart with this project and the project itself survives, yo
   &lt;/ol&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Source: &lt;a href=&quot;http://https://store.steampowered.com/hardwarebeta&quot; target=&quot;_blank&quot;&gt;https://store.steampowered.com/hardwarebeta&lt;/a&gt;&lt;a href=&quot;http://www.usermod.net/wp-content/uploads/2013/09/steam_controller.png&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-100&quot; alt=&quot;steam_controller&quot; src=&quot;http://www.usermod.net/wp-content/uploads/2013/09/steam_controller-300x79.png&quot; width=&quot;300&quot; height=&quot;79&quot; srcset=&quot;http://www.usermod.net/wp-content/uploads/2013/09/steam_controller-300x79.png 300w, http://www.usermod.net/wp-content/uploads/2013/09/steam_controller.png 562w&quot; sizes=&quot;(max-width: 300px) 85vw, 300px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2013/09/steam_controller.png&quot; alt=&quot;beta test agreement&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://store.steampowered.com/hardwarebeta&quot;&gt;https://store.steampowered.com/hardwarebeta&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 25 Sep 2013 00:00:00 +0200</pubDate>
