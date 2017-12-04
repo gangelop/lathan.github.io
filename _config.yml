@@ -9,7 +9,7 @@
 title: computers, linux, open source
 email: george@usermod.net
 description: > # this means to ignore newlines until "baseurl:"
-    I'm George Angelopoulos and I like computers. I write stuff in this blog here, occasionally.
+    I'm George Angelopoulos and I like computers.
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 #twitter_username: g_usermod
