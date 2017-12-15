@@ -1,6 +1,6 @@
 ---
 title: 'Review: ALIX.2D13 router with pfsense'
-author: george
+author: George
 layout: post
 permalink: /review-alix-2d13-router-with-pfsense/
 categories:

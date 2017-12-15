@@ -1,6 +1,6 @@
 ---
 title: Steam Controller!
-author: george
+author: George
 layout: post
 permalink: /steam-controller/
 categories:

@@ -1,6 +1,6 @@
 ---
 title: Greek Translation for OpenCart
-author: george
+author: George
 layout: post
 permalink: /greek-translation-for-opencart/
 categories:
