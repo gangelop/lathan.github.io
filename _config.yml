@@ -18,3 +18,4 @@ linkedin_username:  gangelop
 
 # Build settings
 markdown: kramdown
+include: [".well-known"]

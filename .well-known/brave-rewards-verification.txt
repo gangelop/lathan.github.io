@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: usermod.net
+Token: 49732f3ced174262dad4d0e3658dbe090f3c06add4180af4a5f7199c6084d9ce
