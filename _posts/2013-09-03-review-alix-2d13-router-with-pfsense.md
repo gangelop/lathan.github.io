@@ -20,14 +20,14 @@ I specifically got an [unassembled kit](http://store.netgate.com/ALIX2D3-2D13-Ki
 
 The most important extra item you will definitely need, if you buy an unassembled kit, is a CF card reader. You need the CF card reader so that you can write the OS image on the blank CF card you will receive with the kit.
 
-[![The powered by FreeBSD sticker was not included.](/wp-content/uploads/2013/09/fyeahbsd-225x300.png)](/wp-content/uploads/2013/09/fyeahbsd.png)
+[![The powered by FreeBSD sticker was not included.]({{ site.url }}/wp-content/uploads/2013/09/fyeahbsd-225x300.png)]({{ site.url }}/wp-content/uploads/2013/09/fyeahbsd.png)
 
 Assembling the physical parts was, as expected, fairly simple. There were no instructions but, as with most electronic equipment, there is only one (usually obviously) correct way to put it together; which means that if it fits, you are doing it right.
 
 There was one odd thing I noticed before starting the assembly. Once you screw the board on the case, it is impossible to remove (or insert) the CF card. If you decide to remove the CF card from an assembled ALIX kit, you need to open the case by removing four screws and then, by removing another four screws, detach the entire board from the case. This could have been solved by cutting out a slot in the case to allow for removal of the CF card. I'm not sure why it hasn't been done. Practically, I don't expect this to be a problem as I don't plan on removing the CF card anytime soon. It's a router. It should reside in some dark corner of my house, routing my internets. I shouldn't need to be tinkering with it after it is set up and "in production". But still, it would have been better if this wasn't an issue.
 
-[![alix overview](/wp-content/uploads/2013/09/alix_overview-300x225.png)](/wp-content/uploads/2013/09/alix_overview.png)
-[![cf blocked](/wp-content/uploads/2013/09/cf_blocked-300x225.png)](/wp-content/uploads/2013/09/cf_blocked.png)
+[![alix overview]({{ site.url }}/wp-content/uploads/2013/09/alix_overview-300x225.png)]({{ site.url }}/wp-content/uploads/2013/09/alix_overview.png)
+[![cf blocked]({{ site.url }}/wp-content/uploads/2013/09/cf_blocked-300x225.png)]({{ site.url }}/wp-content/uploads/2013/09/cf_blocked.png)
 
 Due to the aforementioned issue, I decided to set up pfsense before placing the board inside the case. Just in case&#8230;
 
@@ -45,13 +45,13 @@ In my part of the world (Greece), ISPs give you DSL connections with PPPoE. A DS
 
 I'm still unclear as to how exactly this works but, apparently, what I need is something referred to as "bridged PPPoE" or "br1483". It seems to me that br1483 refers to [RFC1483](https://www.rfc-editor.org/rfc/rfc1483.txt), but after briefly skimming through RFC1483 I still don't understand exactly what it's about. Bellow are the settings I used on my ADSL modem/router:
 
-[![adsl modem/router](/wp-content/uploads/2013/09/adsl-300x165.png)](/wp-content/uploads/2013/09/adsl.png)  
+[![adsl modem/router]({{ site.url }}/wp-content/uploads/2013/09/adsl-300x165.png)]({{ site.url }}/wp-content/uploads/2013/09/adsl.png)  
 This is from the web interface of a netis DL-4302 DSL modem/router
 
 
 Finally, after tinkering all day with 3 different modem/routers, the settings above worked. Ι went into pfsense, configured my WAN interface to connect to PPPoE and I was online.  
-[![interface details](/wp-content/uploads/2013/09/interface_details-300x291.png)](/wp-content/uploads/2013/09/interface_details.png)
-[![nterfaces](/wp-content/uploads/2013/09/interfaces-300x110.png)](/wp-content/uploads/2013/09/interfaces.png)
+[![interface details]({{ site.url }}/wp-content/uploads/2013/09/interface_details-300x291.png)]({{ site.url }}/wp-content/uploads/2013/09/interface_details.png)
+[![nterfaces]({{ site.url }}/wp-content/uploads/2013/09/interfaces-300x110.png)]({{ site.url }}/wp-content/uploads/2013/09/interfaces.png)
 
 
 I've been online with pfsense for only a few days now. I've set up all the very basic configurations such as choosing IP networks for my interfaces, making DHCP static mappings for my own computers and the printer, forwarding certain ports, testing bandwidth with iperf etc. So far everything has been working great. But these are only the basics. Pfsense offers a lot more functionality and I'm curious to see how much I can get out of the ALIX board before it starts being unreliable. In any case though, I'm just happy that I finally own my network.
