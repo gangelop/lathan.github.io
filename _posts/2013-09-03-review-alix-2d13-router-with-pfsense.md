@@ -3,16 +3,6 @@ title: 'Review: ALIX.2D13 router with pfsense'
 author: George
 layout: post
 permalink: /review-alix-2d13-router-with-pfsense/
-categories:
-  - reviews
-tags:
-  - alix
-  - free software
-  - freebsd
-  - home router
-  - open source
-  - pfsense
-  - router
 ---
 I recently got my hands on an ALIX.2D13 router board. No more crappy ISP routers for me!
 
