@@ -6,10 +6,17 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <p class="rss-subscribe">lurk: <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
-        <ul class="contact-list">
-          <li>don't lurk: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+        <table class="contact-list">
+          <tr>
+              <td class="column1">lurk:</td>
+              <td><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></td>
+          </tr>
+          <tr>
+              <td class="column1">don't lurk:</td>
+              <td><a href="mailto:{{ site.email }}">{{ site.email }}</a></td>
+          </tr>
+        </table>
+
       </div>
 
       <div class="footer-col footer-col-2">
