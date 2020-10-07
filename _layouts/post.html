@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<script type="text/javascript" src="/js/baguetteBox.min.js" charset="utf-8"></script>
+<link type="text/css" rel="stylesheet" href="/css/baguetteBox.min.css"  media="screen,projection"/>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -11,5 +13,8 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+<script type="text/javascript">
+baguetteBox.run(".post-content");
+</script>
 
 </article>
