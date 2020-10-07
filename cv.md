@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CV: George Angelopoulos"
+title: "CV / George Angelopoulos"
 short_title: "CV"
 permalink: /cv/
 ---
@@ -10,7 +10,8 @@ permalink: /cv/
 # Red Hat
 ## / Senior Technical Support Engineer
 **LOCATION:** Brno, Czech Republic  
-**PERIOD:** February 2015 - April 2019 *(4 yrs 3 mos)*
+**PERIOD:** February 2015 - April 2019 *(4 yrs 3 mos)*  
+**POSITIONS:**  
 * Senior Technical Support Engineer *(Oct 2018 – Apr 2019)*
 * Technical Support Engineer *(Sep 2015 – Sep 2018)*
 * Associate Technical Support Engineer *(Feb 2015 – Aug 2015)*
