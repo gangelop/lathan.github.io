@@ -215,9 +215,15 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    h1,h2,h3,h4 {
+        display: inline-block;
+        padding: 0px 0.4em;
+    }
 
     h1 {
         font-size: 32px;
+        background: black;
+        color: white;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -227,6 +233,8 @@
 
     h2 {
         font-size: 28px;
+        background: $grey-color-dark;
+        color: white;
 
         @include media-query($on-laptop) {
             font-size: 24px;
@@ -235,6 +243,8 @@
 
     h3 {
         font-size: 26px;
+        background: $grey-color-light;
+        color: black;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -243,6 +253,7 @@
 
     h4 {
         font-size: 20px;
+        background: $grey-color-light;
 
         @include media-query($on-laptop) {
             font-size: 18px;
