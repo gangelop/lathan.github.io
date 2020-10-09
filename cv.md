@@ -30,7 +30,7 @@ The following were my main responsibilities:
     * Basic vmcore analysis and identifying common causes of kernel panics.
     * Basic and advanced git usage.
     * Advanced usage of vim and command line tools such as zsh, fzf, ctrl-p, tmux, for parsing sosreport and similar data.
-    * Introduction to awk and practical examples for ad-hoc analysis of performance data.
+    * Introduction to awk and practical examples for ad-hoc analysis of performance data using awk.
     * KCS coaching.
 
 # [ video hosting websites ]
