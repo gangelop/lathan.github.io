@@ -4,7 +4,7 @@ author: George
 layout: post
 permalink: /ymhttos-morning-ride-fat-slow-bicycle-ascent/
 ---
-[![My bike at the top of Ymittos]({{ site.url }}/media/800/IMG_20201004_084306.e-800.jpg)]({{ site.url }}/media/IMG_20201004_084306.e.jpg)
+[![My bike at the top of Ymittos]({{ site.url }}/media/800/IMG_20201004_084306-800.jpg)]({{ site.url }}/media/IMG_20201004_084306.jpg)
 
 I'm fat and slow but I made it.
 
