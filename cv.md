@@ -25,7 +25,7 @@ The following were my main responsibilities:
 * Communicating with customers' technical staff over e-mail and phone.
 * Contributing to the maintenance of Red Hat's Knowledge-Centered Service (KCS) knowledgebase.
 * On-boarding recruits over 3-month periods.
-* Development and contribution of internal tooling and services (bash and python).
+* Development of and contribution to internal tooling and services (bash and python).
 * Organizing and delivering employee training on subjects such as:
     * Basic vmcore analysis and identifying common causes of kernel panics.
     * Basic and advanced git usage.
