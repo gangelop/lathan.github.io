@@ -2,7 +2,7 @@
 title: 'Why I deleted my Facebook and why you should too'
 author: George
 layout: post
-permalink: /why-I-deleted-facebook-and-you-should-too
+permalink: /why-I-deleted-facebook-and-you-should-too/
 ---
 
 ![hmmmmmmmm]({{ site.url }}/media/thinking emoji textured surface.png)  
