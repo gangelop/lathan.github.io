@@ -9,7 +9,7 @@
 title: George's Blog
 email: george@usermod.net
 description: > # this means to ignore newlines until "baseurl:"
-    I'm George Angelopoulos and I like computers.
+    I'm George Angelopoulos and I like computers, cycling, cats, and other things.
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 url: "https://usermod.net"
