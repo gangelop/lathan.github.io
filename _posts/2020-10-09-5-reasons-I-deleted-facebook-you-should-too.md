@@ -27,7 +27,7 @@ All of this data is stored forever in redundant copies in datacenters across the
 # Feeds modify your behavior
 It is my impression that people view their feeds as a convenient summary of their friends' activities. But the social media feeds are not a simple and impartial report. They are instead, streams of *curated* information. They are produced by algorithms which purportedly attempt to determine what information you will find interesting. The feeds also include items you never actively asked for, under the assumption that this information you weren't exposed to before is something you will find interesting.
 
-Behind this lies an unwarranted assumption of benevolence. Supposedly, the reason the feed algorithm chose to show you some things and omit others was just to make the feed more relevant to your interests. The feed algorithm just wants what's best for you.
+Behind this perception lies an unwarranted assumption of benevolence. Supposedly, the reason the feed algorithm chose to show you some things and omit others was just to make the feed more relevant to your interests. The feed algorithm just wants what's best for you.
 
 But the feed algorithm is controlled by people who have the power to chose what goes in it and what stays out. Could it be that the situation is exactly the reverse of the advertised benevolence? Could it be that the people in charge of the giant tech companies intentionally shape the information in your feed to attempt to influence what you think? There is no reason to assume this is not happening. They have both the means and the motivation to do it.
 
