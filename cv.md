@@ -29,7 +29,7 @@ The following were my main responsibilities:
 * Organizing and delivering employee training on subjects such as:
     * Basic vmcore analysis and identifying common causes of kernel panics.
     * Basic and advanced git usage.
-    * Advanced usage of vim and command line tools such as zsh, fzf, crlp-p, tmux, for parsing sosreport and similar data.
+    * Advanced usage of vim and command line tools such as zsh, fzf, ctrl-p, tmux, for parsing sosreport and similar data.
     * Introduction to awk and practical examples for ad-hoc analysis of performance data.
     * KCS coaching.
 
