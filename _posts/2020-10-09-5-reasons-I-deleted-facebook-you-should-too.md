@@ -54,7 +54,7 @@ My wife, Cleopatra, first noticed this. Cleopatra had a Facebook friend, let's c
 
 After chatting with her for a while, Cleopatra realized that almost none of Alice's Facebook friends who must have been aware of this loss (the same way Cleopatra learned about it) had thought to contact Alice to express the simple customary condolences. This made us think. How different would the situation be if Alice had made a dramatic post about it? It's reasonable to assume that there would be a plethora of "sad face" reactions and comments expressing the deepest sympathies of the authors. Her Facebook friends would be competing for the most heartfelt and original comment and the winner would receive the most likes.
 
-But because she didn't post about it and she never appeared directly on her Facebook friends' feeds, nothing happened. And why would anybody contact her otherwise? There were no likes to be had. None of us are unique snowflakes and Cleopatra is not either. So it's quite possible that, was she not in the final stages of getting fed up with Facebook, she wouldn't have contacted her either.
+But because she didn't post about it and she never appeared directly on her Facebook friends' feeds, nothing happened. And why would anybody contact her otherwise? There were no likes to be had.
 
 A person's death is an extreme example. But it took an extreme example to make us notice that for people addicted to social media, reality is defined by the opportunity to acquire likes. The value of your human relationships is quantified by likes, and anything that cannot provide likes does not exist.
 
