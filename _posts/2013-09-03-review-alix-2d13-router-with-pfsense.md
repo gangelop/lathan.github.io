@@ -4,6 +4,10 @@ author: George
 layout: post
 permalink: /review-alix-2d13-router-with-pfsense/
 ---
+
+**UPDATE 2020-10-15:** *The ALIX.2D13 has a 32bit cpu. Pfsense stopped supporting 32bit architectures in 2018. If you stumbled on this page through a search engine, look for another board.*
+
+---
 I recently got my hands on an ALIX.2D13 router board. No more crappy ISP routers for me!
 
 I specifically got an [unassembled kit](http://store.netgate.com/ALIX2D3-2D13-Kit-Black-Unassembled-P172C82.aspx) along with a [miniPCI wireless card kit](http://store.netgate.com/KIT-ALIX-5004MP-DUAL-P190C34.aspx). Almost everything I needed came in the unassembled kit. The only extra items I had to find were some ethernet cables, a console (null modem) cable, and a very cheap [adapter](http://www.amazon.com/Bluecell-American-European-Outlet-Adapter/dp/B008M4LQM2/ref=sr_1_1?ie=UTF8&qid=1378187269&sr=8-1&keywords=american+european+adapter) to convert the pins on the power supply from American to European. Luckily, the power supply that netgate sent me works with 100V-240V input, which means I can use it here, with our European 220V power. Neat!
