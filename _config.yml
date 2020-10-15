@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 plugins: ["jekyll-paginate"]
-paginate: 5
+paginate: 6
 
 # Site settings
 title: George's Blog
