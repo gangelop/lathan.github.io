@@ -23,6 +23,8 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    background: #000 url(/media/cubes.jpg) no-repeat fixed;
+    background-size: cover;
 }
 
 
@@ -95,7 +97,7 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($brand-color, 20%);
     }
 
     &:hover {
@@ -155,13 +157,34 @@ pre {
 /**
  * Wrapper
  */
+
+.big-wrapper {
+    background: #00000088;
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin: auto;
+    margin-top: $spacing-unit/2;
+    padding: 30px;
+    border-radius: 5px;
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-top: $spacing-unit / 2;
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
 .wrapper {
+    border-radius: 5px;
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
+    padding-top: $spacing-unit / 2;
+    padding-bottom: $spacing-unit / 2;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -170,9 +193,13 @@ pre {
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
+    background: $background-color-2;
 }
 
-
+.fadein {
+    &:hover {
+    }
+}
 
 /**
  * Clearfix

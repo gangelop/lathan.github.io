@@ -2,12 +2,11 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    padding-top: $spacing-unit/2;
 }
 
 .site-title {
@@ -44,11 +43,11 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
+        top: $spacing-unit * 1.5;
         right: $spacing-unit / 2;
-        background-color: $background-color;
+        background-color: $background-color-2;
         border: 1px solid $grey-color-light;
-        border-radius: 5px;
+        border-radius: 10px;
         text-align: right;
 
         .menu-icon {
@@ -73,6 +72,7 @@
         .trigger {
             clear: both;
             display: none;
+            border: 2px;
         }
 
         &:hover .trigger {
@@ -101,7 +101,6 @@
     text-align: right;
 }
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
@@ -171,7 +170,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding-top: $spacing-unit;
 }
 
 .page-heading {
