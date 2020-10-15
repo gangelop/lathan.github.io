@@ -4,7 +4,7 @@ title: "CV / George Angelopoulos"
 short_title: "CV"
 permalink: /cv/
 ---
-
+<link rel="stylesheet" href="/css/cvprint.css">
 *The current version of this CV lives at:* [{{ site.url }}/cv/]({{ site.url }}/cv/)
 
 # Red Hat
