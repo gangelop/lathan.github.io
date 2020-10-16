@@ -5,8 +5,7 @@
     .site-footer {
         display: none;
     }
-}
-
-a {
-    color: black !important;
+    a {
+        color: black !important;
+    }
 }
