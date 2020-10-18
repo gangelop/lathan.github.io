@@ -85,3 +85,15 @@ Beyond the work related to preparing the IT infrastructure for the new building,
 * Providing on-site assistance for college staff, professors, and students with any technical issue.
 * Managing the college's email system.
 * Maintaining the existing IT infrastructure for both buildings.
+
+---
+
+# Certifications
+## Red Hat
+**Red Hat cert ID:** [150-040-954](https://www.redhat.com/rhtapps/certification/verify/?certId=150-040-954)  
+* **Red Hat Certificate of Expertise in Ansible Automation**  
+  date:	Oct 24, 2017  
+  current until:	Jan 01, 2021
+* **Red Hat Certified Engineer (RHCE)**  
+    date:	Mar 27, 2015  
+    current until:	Jan 01, 2021
