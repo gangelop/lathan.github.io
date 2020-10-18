@@ -90,7 +90,7 @@ Beyond the work related to preparing the IT infrastructure for the new building,
 
 # Certifications
 ## Red Hat
-**Red Hat cert ID:** [150-040-954](https://www.redhat.com/rhtapps/certification/verify/?certId=150-040-954)  
+**Red Hat cert ID:** [150-040-954](https://rhtapps.redhat.com/verify/?certId=150-040-954)  
 * **Red Hat Certificate of Expertise in Ansible Automation**  
   date:	Oct 24, 2017  
   current until:	Jan 01, 2021
