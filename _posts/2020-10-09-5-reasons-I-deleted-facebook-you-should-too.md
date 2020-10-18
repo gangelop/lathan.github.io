@@ -5,7 +5,7 @@ layout: post
 permalink: /why-I-deleted-facebook-and-you-should-too/
 ---
 
-![hmmmmmmmm]({{ site.url }}/media/thinking emoji textured surface.png)  
+![hmmmmmmmm]({{ site.url }}/media/thinking emoji textured surface.png){: .img-center}  
 I signed up with Facebook some time in 2009. Eleven years later, this past June, I decided it was finally time to delete my account.  
 Here's why:
 
