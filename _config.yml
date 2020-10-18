@@ -9,7 +9,7 @@ plugins: ["jekyll-paginate"]
 paginate: 6
 
 # Site settings
-title: George's Blog
+title: usermod.net
 email: george@usermod.net
 description: > # this means to ignore newlines until "baseurl:"
     I'm George Angelopoulos and I like computers, cycling, cats, and other things.
