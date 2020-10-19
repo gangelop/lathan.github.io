@@ -18,6 +18,7 @@
     float: left;
 
     &,
+    &:hover,
     &:visited {
         color: $background-color-2;
     }
