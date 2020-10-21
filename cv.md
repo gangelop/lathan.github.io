@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CV / George Angelopoulos"
+title: "CV George Angelopoulos"
 short_title: "CV"
 permalink: /cv/
 ---
