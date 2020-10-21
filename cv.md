@@ -17,18 +17,19 @@ permalink: /cv/
 * Associate Technical Support Engineer *(Feb 2015 – Aug 2015)*
 
 ### Responsibilities
-At Red Hat I worked as part of the customer support team for Red Hat Enterprise Linux. I entered the team as an Associate Technical Support Engineer and left as a Senior Technical Support Engineer. I specialized in filesystem and storage issues initially and later in kernel related issues. 
+At Red Hat I worked as part of the customer support team for Red Hat Enterprise Linux. I joined as an Associate Technical Support Engineer and left as a Senior Technical Support Engineer. I initially specialized in filesystem and storage and later in kernel related issues. 
 
-The following were my main responsibilities:
-* Investigating and helping solve technical issues for customers running RHEL such as various kinds of kernel panics, out of memory errors, performance issues, filesystem corruptions, lvm corruptions, storage (NAS, SAN) disconnections.
-* Working in an often high pressure environment with response times defined in a Service-Level Agreement.
-* Communicating with customers' technical staff over e-mail and phone.
-* Contributing to the maintenance of Red Hat's Knowledge-Centered Service (KCS) knowledgebase.
-* On-boarding recruits over 3-month periods.
-* Development of and contribution to internal tooling and services (bash and python).
-* Organizing and delivering employee training on subjects such as:
+My main responsibilities were:
+* Solving technical issues for customers running RHEL such as kernel panics, out of memory events, performance issues, filesystem corruptions, lvm corruptions, storage (NAS, SAN) disconnections.
+* Working in a high pressure environment with response times defined in a Service-Level Agreement.
+* Communicating with customers over e-mail and phone.
+* Contributing to Red Hat's Knowledge-Centered Service (KCS) knowledgebase.
+* Interviewing candidates for technical roles.
+* Mentoring new hires.
+* Contributing to internal tooling and services (bash, python).
+* Delivering employee training on subjects such as:
     * Basic vmcore analysis and identifying common causes of kernel panics.
-    * Basic and advanced git usage.
+    * git usage.
     * Advanced usage of vim and command line tools such as zsh, fzf, ctrl-p, tmux, for parsing sosreport and similar data.
     * Introduction to awk and practical examples for ad-hoc analysis of performance data using awk.
     * KCS coaching.
@@ -39,12 +40,12 @@ The following were my main responsibilities:
 **PERIOD:** November 2011 - April 2013 and February 2014 - January 2015 *(2 yrs 6 mos)*
 
 ### Responsibilities
-I worked for a series of video hosting and video on demand websites as a system administrator. My day to day responsibilities revolved around Linux system administration. 
+I worked for a series of video on demand websites as a system administrator. My day to day responsibilities revolved around Linux system administration. 
 
-The following were my main responsibilities:
-* Maintenance of an infrastructure of 150 bare-metal servers running CentOS and Ubuntu.
+My main responsibilities were:
+* Maintenance of 150 bare-metal Linux servers.
 * Provisioning new and decommissioning old production systems.
-* Creating new accounts and development environments for newly hired programmers.
+* Setting up development environments for newly hired developers.
 * Provisioning and maintaining internal services for developers (e.g. internally-hosted GitLab).
 * Participating in an on-call rotation responding to monitoring alerts for production systems.
 
@@ -72,7 +73,7 @@ Work usually involved:
 **PERIOD:** September 2009 - December 2011 *(2 yrs 4 mos)*
 
 ### Responsibilities
-I worked in the college's IT team during a period when it was expanding to its second building in the center of Athens. My colleagues and I carried out the installation of all the computer equipment for the new building which included:
+I worked in the college's IT team while it was expanding to its second building in the center of Athens. My colleagues and I carried out the installation of all the computer equipment for the new building which included:
 
 * Unpacking and setting up approximately 100 workstations across computer labs and staff offices.
 * Patching all of it from the patch panels into the network switches.
