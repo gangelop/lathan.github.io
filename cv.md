@@ -34,7 +34,7 @@ My main responsibilities were:
     * Introduction to awk and practical examples for ad-hoc analysis of performance data using awk.
     * KCS coaching.
 
-# [ video hosting websites ]
+# [ video sites ]
 ##  System Administrator
 **LOCATION:** remote - home office  
 **PERIOD:** November 2011 - April 2013 and February 2014 - January 2015 *(2 yrs 6 mos)*
