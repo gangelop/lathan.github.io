@@ -93,8 +93,6 @@ Beyond the work related to preparing the IT infrastructure for the new building,
 ## Red Hat
 **Red Hat cert ID:** [150-040-954](https://rhtapps.redhat.com/verify/?certId=150-040-954)  
 * **Red Hat Certificate of Expertise in Ansible Automation**  
-  date:	Oct 24, 2017  
-  current until:	Jan 01, 2021
+  valid from/to:	Oct 24, 2017 -  Jan 01, 2021
 * **Red Hat Certified Engineer (RHCE)**  
-    date:	Mar 27, 2015  
-    current until:	Jan 01, 2021
+  valid from/to: Mar 27, 2015 - Jan 01, 2021
