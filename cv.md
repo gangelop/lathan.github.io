@@ -17,7 +17,7 @@ permalink: /cv/
 * Associate Technical Support Engineer *(Feb 2015 – Aug 2015)*
 
 ### Responsibilities
-At Red Hat I worked as part of the customer support team for Red Hat Enterprise Linux. I joined as an Associate Technical Support Engineer and left as a Senior Technical Support Engineer. I initially specialized in filesystem and storage and later in kernel related issues. 
+At Red Hat I worked as part of the customer support team for Red Hat Enterprise Linux. I initially specialized in filesystem and storage and later in kernel related issues. 
 
 My main responsibilities were:
 * Solving technical issues for customers running RHEL such as kernel panics, out of memory events, performance issues, filesystem corruptions, lvm corruptions, storage (NAS, SAN) disconnections.
