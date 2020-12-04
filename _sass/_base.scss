@@ -40,6 +40,21 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+/**
+ * buttons
+ */
+button {
+    color: white;
+    background: $brand-color;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    &:hover {
+        background: darken($brand-color, 20%);
+    }
+}
 
 
 /**
