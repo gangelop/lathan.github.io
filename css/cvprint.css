@@ -5,6 +5,9 @@
     .site-footer {
         display: none;
     }
+    .printhide {
+        display: none;
+    }
     a {
         color: black !important;
     }
