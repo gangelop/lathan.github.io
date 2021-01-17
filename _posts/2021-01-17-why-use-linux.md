@@ -27,11 +27,11 @@ I mentioned I learned Linux on my first job. But I actually didn't *need* to lea
 
 What immediately caught my attention was how it looked. Both the IT guys ran a distribution of Linux on their computers but they looked nothing alike! While everybody else was stuck complaining about the jarring change from Windows XP to Vista, and broke college students like myself would never even think of laying eyes on an Apple computer, here were these IT guys who just happened to have two interfaces that looked and felt different from anything I'd seen before and even from each other.
 
-[![ubuntu 9.04]({{ site.url }}/media/Screenshot_of_Ubuntu_9.04_with_GNOME_2.26.png)]({{ site.url }}/media/Screenshot_of_Ubuntu_9.04_with_GNOME_2.26.png)
+[![ubuntu 9.04]({{ site.url }}/media/800/Screenshot_of_Ubuntu_9.04_with_GNOME_2.26-800.jpg)]({{ site.url }}/media/Screenshot_of_Ubuntu_9.04_with_GNOME_2.26.png)
 
 What I was looking at were called "desktop environments" and while different Linux distributions had a different one installed by default, there was no standard one. There were actually a half-dozen different ones that you could use. You could simply uninstall one and install another. You could even install multiple desktop environments and log into whichever one you felt like when you booted your computer, and as if that wasn't enough, each one was practically infinitely customizable.
 
-[![kubuntu 9.04]({{ site.url }}/media/Kubuntu-9.04-DesktopEffects.png)]({{ site.url }}/media/Kubuntu-9.04-DesktopEffects.png)
+[![kubuntu 9.04]({{ site.url }}/media/800/Kubuntu-9.04-DesktopEffects-800.jpg)]({{ site.url }}/media/Kubuntu-9.04-DesktopEffects.png)
 
 I soon learned that this variety of choice did not stop at the superficial level of the look and feel of the desktop environments. At every level of the system, from how menus are laid-out to how software updates were managed, everything was fully customizable. There were never any licenses you had to buy, you never had to download a mysterious crack.exe from a torrent. In the rare case that your computer crashed or encountered some other fatal error, instead of a blue screen that leaves you guessing as to what the actual problem was, you would get precise error messages telling you *exactly* what the problem was. You never had to guess or perform a voodoo reboot ritual hoping that the problem will magically go away. Linux told you what the problem was. It was up to you to read, understand, and fix it.
 
@@ -78,7 +78,7 @@ Taking control of your computer is also not a choice you can make once and be do
 
 I embarked on this journey back in 2009. I had done some test installations of Linux on a virtual machine and was ready to do the real deal. I wiped Windows from my personal computer at home, I installed Ubuntu, and I've never looked back since. Today my computer looks *nothing* like it did that day in 2009. I don't use Ubuntu any more, I use Arch Linux. I don't even use a desktop environment. I use a more minimalistic window manager instead.
 
-[![screenshot linux i3 window manager tmux neovim screenfetch]({{ site.url }}/media/screenshot-linux.png)]({{ site.url }}/media/screenshot-linux.png)
+[![screenshot linux i3 window manager tmux neovim screenfetch]({{ site.url }}/media/800/screenshot-linux-800.jpg)]({{ site.url }}/media/screenshot-linux.png)
 
 Here are some other practical consequences of how I use my computer. Because Arch Linux is a rolling release distribution, I never have to re-install it because of a new release, ever. The last time I re-installed was in 2017 and that was only because I swapped out my spinning hard drive for an SSD. Even then, everything custom about my system I simply copied over to the new installation. But beyond this, when was the last time I actually did a fresh installation? It must have been 2013, when I put together the hardware for this computer. To put it simply, my operating system is fully up to date and I practically haven't re-installed it in eight years.
 
