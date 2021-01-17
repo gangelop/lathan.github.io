@@ -61,6 +61,11 @@ The first, in my view, legitimate obstacle is software compatibility: A lot of i
 
 Reliance on specialized professional hardware is, in my estimation, less common than software, but eventually the problem is the same.
 
+But what about gaming?
+
+![ps4 controller anime]({{ site.url }}/media/ps4-anime.gif){: .img-fullwidth}
+
+The situaton is similar. If gaming is your number one priority, you should use Windows. There will be some games that don't work on Linux. But the reality is that a massive amount of games do work. I do in fact play more games and a wider variety of games than a lot of people, from titles everybody's heard of, like DOOM and Skyrim, to indie games that nobody has ever heard of, like Velocibox and Devil Daggers. This topic deserves its own post. But for now I'll just say that video games have always been and will continue to be important to me, and Linux hasn't changed this.
 
 # What it actually means to use Linux
 Now, let's assume that any hardware or software you use for your job is perfectly functional on Linux. There is still one subtle obstacle towards software freedom:
@@ -81,9 +86,7 @@ I will also never be interrupted by an auto-updater. I download and install upda
 
 More notably, when some update breaks something I know exactly what caused it, and how to fix it or revert it until it is fixed. Even if a failed update causes the computer to not boot (this has only happened to me once), fixing it is a matter of minutes.
 
-The result of this degree of control is a kind of peace of mind that no Windows or macOS user can ever hope for, no matter how smart they are or how much time they've put into learning about their computer.
-
-Getting to this level where you have an intimate understanding of how your computer works does require effort. Even IT professionals who work with Linux servers every day won't automatically know how to manage a Linux desktop system. The opposite is also true: managing your Linux computer will not make you a professional system administrator (although it's a very good first step). Any way you look at it, there are no shortcuts. Freedom, to use the old cliché, is not free. But it is attainable without having to make it your full-time job.
+The result of this degree of control is a kind of peace of mind that no Windows or macOS user can ever hope for, no matter how smart they are or how much time they've put into learning about their computer. Getting to this level where you have an intimate understanding of how your computer works does require effort. Even IT professionals who work with Linux servers every day won't automatically know how to manage a Linux desktop system. The opposite is also true: managing your Linux computer will not make you a professional system administrator (although it's a very good first step). Any way you look at it, there are no shortcuts. Freedom, to use the old cliché, is not free. But it is attainable without having to make it your full-time job.
 
 # What is the value of Freedom?
 I use Linux because it allows me a greater degree of freedom. This is quite a long post, and if you've read this far, chances are there is something about this that resonates with you. In that case, I urge you to consider your freedom. The next time you have to decide to use a piece of software, or buy a computer, or choose a professional career, ask yourself: *will using this technology make me more free or less free?*
