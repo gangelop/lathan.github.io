@@ -2,7 +2,6 @@
 title: 'Why use Linux?'
 author: George
 layout: post
-hidden: true
 permalink: /why-use-linux/
 ---
 
