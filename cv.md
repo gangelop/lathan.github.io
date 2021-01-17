@@ -11,9 +11,9 @@ permalink: /cv/
 
 # Red Hat
 ##  Senior Technical Support Engineer
-**LOCATION:** Brno, Czech Republic  
-**PERIOD:** February 2015 - April 2019 *(4 yrs 3 mos)*  
-**POSITIONS:**  
+*location:* Brno, Czech Republic  
+*period:* February 2015 - April 2019 *(4 yrs 3 mos)*  
+*positions:*  
 * Senior Technical Support Engineer *(Oct 2018 – Apr 2019)*
 * Technical Support Engineer *(Sep 2015 – Sep 2018)*
 * Associate Technical Support Engineer *(Feb 2015 – Aug 2015)*
@@ -38,8 +38,8 @@ My main responsibilities were:
 
 # [ video sites ]
 ##  System Administrator
-**LOCATION:** remote - home office  
-**PERIOD:** November 2011 - April 2013 and February 2014 - January 2015 *(2 yrs 6 mos)*
+*location:* remote - home office  
+*period:* November 2011 - April 2013 and February 2014 - January 2015 *(2 yrs 6 mos)*
 
 ### Responsibilities
 I worked for a series of video on demand websites as a system administrator. My day to day responsibilities revolved around Linux system administration. 
@@ -55,8 +55,8 @@ In addition to day-to-day tasks, I planned and implemented a migration from an o
 
 # thinkbinary.gr
 ##  on-site Technical Support
-**LOCATION:** Athens, Greece  
-**PERIOD:** March 2010 – May 2011 *(1 yr 3 mos)* 
+*location:* Athens, Greece  
+*period:* March 2010 – May 2011 *(1 yr 3 mos)* 
 
 ### Responsibilities
 I provided on-site technical support for small offices with Windows infrastructure.
@@ -71,8 +71,8 @@ Work usually involved:
 
 # City Unity College
 ##  System Administrator
-**LOCATION:** Athens, Greece  
-**PERIOD:** September 2009 - December 2011 *(2 yrs 4 mos)*
+*location:* Athens, Greece  
+*period:* September 2009 - December 2011 *(2 yrs 4 mos)*
 
 ### Responsibilities
 I worked in the college's IT team while it was expanding to its second building in the center of Athens. My colleagues and I carried out the installation of all the computer equipment for the new building which included:
