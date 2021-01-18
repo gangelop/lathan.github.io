@@ -187,7 +187,7 @@ pre {
     background: #00000088;
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin: $spacing-unit/2 auto;
+    margin: $spacing-unit*2 auto;
     padding: $spacing-unit $spacing-unit * 2;
     border-radius: 5px;
     @include media-query($on-laptop) {
