@@ -54,7 +54,7 @@ pre { padding: 8px 12px; overflow-x: auto; }
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 /** Wrapper */
-.big-wrapper { background: #00000088; max-width: -webkit-calc(800px - (20px * 2)); max-width: calc(800px - (20px * 2)); margin: 40px auto; padding: 20px 40px; border-radius: 5px; }
+.big-wrapper { background: #00000088; max-width: -webkit-calc(800px - (20px * 2)); max-width: calc(800px - (20px * 2)); margin: 10px auto; padding: 20px 40px; border-radius: 5px; }
 
 @media screen and (max-width: 800px) { .big-wrapper { max-width: -webkit-calc(800px - (20px)); max-width: calc(800px - (20px)); padding-top: 10px; padding-right: 20px; padding-left: 20px; } }
 
