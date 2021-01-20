@@ -7,6 +7,7 @@ permalink: /cv/
 <link rel="stylesheet" href="/css/cvprint.css">
 <button class="printhide" onclick="window.print();return false;">print this page</button>
 
+*Contact me at:* [george@usermod.net](mailto:george@usermod.net)  
 *The current version of this CV lives at:* [{{ site.url }}/cv/]({{ site.url }}/cv/)
 
 # Red Hat
