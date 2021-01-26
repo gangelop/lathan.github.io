@@ -10,8 +10,7 @@ permalink: /cv/
 *Contact me at:* [george@usermod.net](mailto:george@usermod.net)  
 *The current version of this CV lives at:* [{{ site.url }}/cv/]({{ site.url }}/cv/)
 
-# Red Hat
-##  Senior Technical Support Engineer
+# Red Hat | Senior Technical Support Engineer
 *location:* Brno, Czech Republic  
 *period:* February 2015 - April 2019 *(4 yrs 3 mos)*  
 *positions:*  
@@ -37,8 +36,7 @@ My main responsibilities were:
     * Introduction to awk and practical examples for ad-hoc analysis of performance data using awk.
     * KCS coaching.
 
-# Video Sites
-##  System Administrator
+# Video Sites | System Administrator
 *location:* remote - home office  
 *period:* November 2011 - April 2013 and February 2014 - January 2015 *(2 yrs 6 mos)*
 
@@ -54,8 +52,7 @@ My main responsibilities were:
 
 In addition to day-to-day tasks, I planned and implemented a migration from an old performance graphing system (cacti) to a more flexible modern stack (graphite, grafana, statsd, logstash, collectd) for the entire infrastructure. (I don't know how mature prometheus was in 2014 but if it was and I was aware of it, I would have used it!)
 
-# thinkbinary.gr
-##  on-site Technical Support
+# thinkbinary.gr | on-site Technical Support
 *location:* Athens, Greece  
 *period:* March 2010 – May 2011 *(1 yr 3 mos)* 
 
@@ -70,8 +67,7 @@ Work usually involved:
 * Provisioning and decommissioning workstations.
 * Assisting users with miscellaneous requests and training.
 
-# City Unity College
-##  System Administrator
+# City Unity College | System Administrator
 *location:* Athens, Greece  
 *period:* September 2009 - December 2011 *(2 yrs 4 mos)*
 
