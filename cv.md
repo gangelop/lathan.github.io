@@ -65,7 +65,7 @@ Work usually involved:
 * Configuring smb file sharing.
 * Managing user access and permissions for different teams (management, sales, engineers, etc.).
 * Provisioning and decommissioning workstations.
-* Assisting users with miscellaneous requests and training.
+* Assisting users with miscellaneous requests.
 
 # City Unity College | System Administrator
 *location:* Athens, Greece  
