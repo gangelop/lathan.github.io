@@ -11,4 +11,7 @@
     a {
         color: black !important;
     }
+    .big-wrapper {
+        margin: 0;
+    }
 }
