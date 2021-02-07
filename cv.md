@@ -18,9 +18,7 @@ permalink: /cv/
 * Technical Support Engineer *(Sep 2015 – Sep 2018)*
 * Associate Technical Support Engineer *(Feb 2015 – Aug 2015)*
 
-### Responsibilities
-At Red Hat I worked as part of the customer support team for Red Hat Enterprise Linux. I initially specialized in filesystem and storage and later in kernel related issues. 
-
+At Red Hat I worked as part of the customer support team for Red Hat Enterprise Linux. I initially specialized in filesystem and storage and later in kernel related issues.  
 My main responsibilities were:
 * Solving technical issues for customers running RHEL such as kernel panics, out of memory events, performance issues, filesystem corruptions, lvm corruptions, storage (NAS, SAN) disconnections.
 * Working in a high pressure environment with response times defined in a Service-Level Agreement.
@@ -40,9 +38,7 @@ My main responsibilities were:
 *location:* remote - home office  
 *period:* November 2011 - April 2013 and February 2014 - January 2015 *(2 yrs 6 mos)*
 
-### Responsibilities
-I worked for a series of video on demand websites as a system administrator. My day to day responsibilities revolved around Linux system administration. 
-
+I worked for a series of video on demand websites as a system administrator. My day to day responsibilities revolved around Linux system administration.  
 My main responsibilities were:
 * Maintenance of 150 bare-metal Linux servers.
 * Provisioning new and decommissioning old production systems.
@@ -56,9 +52,7 @@ In addition to day-to-day tasks, I planned and implemented a migration from an o
 *location:* Athens, Greece  
 *period:* March 2010 – May 2011 *(1 yr 3 mos)* 
 
-### Responsibilities
-I provided on-site technical support for small offices with Windows infrastructure.
-
+I provided on-site technical support for small offices with Windows infrastructure.  
 Work usually involved:
 * Managing Windows Active Directory servers.
 * Configuring shared printers.
@@ -71,7 +65,6 @@ Work usually involved:
 *location:* Athens, Greece  
 *period:* September 2009 - December 2011 *(2 yrs 4 mos)*
 
-### Responsibilities
 I worked in the college's IT team while it was expanding to its second building in the center of Athens. My colleagues and I carried out the installation of all the computer equipment for the new building which included:
 
 * Unpacking and setting up approximately 100 workstations across computer labs and staff offices.
@@ -89,9 +82,9 @@ Beyond the work related to preparing the IT infrastructure for the new building,
 ---
 
 # Certifications
-## Red Hat
-**Red Hat cert ID:** [150-040-954](https://rhtapps.redhat.com/verify/?certId=150-040-954)  
 * **Red Hat Certificate of Expertise in Ansible Automation**  
   valid from/to:	Oct 24, 2017 -  Jan 01, 2021
 * **Red Hat Certified Engineer (RHCE)**  
   valid from/to: Mar 27, 2015 - Jan 01, 2021
+
+**Red Hat cert ID:** [150-040-954](https://rhtapps.redhat.com/verify/?certId=150-040-954)  
