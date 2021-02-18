@@ -53,6 +53,7 @@ In addition to day-to-day tasks, I planned and implemented a migration from an o
 *period:* March 2010 – May 2011 *(1 yr 3 mos)* 
 
 I provided on-site technical support for small offices with Windows infrastructure.  
+This was a part-time position, responding based on customer support requests.
 Work usually involved:
 * Managing Windows Active Directory servers.
 * Configuring shared printers.
