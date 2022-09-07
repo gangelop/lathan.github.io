@@ -10,6 +10,10 @@ permalink: /cv/
 *Contact me at:* [george@usermod.net](mailto:george@usermod.net)  
 *The current version of this CV lives at:* [{{ site.url }}/cv/]({{ site.url }}/cv/)
 
+# Canonical | Technical Support Engineer
+*location:* Athens, Greece (remote)  
+*Period:* September 2022 - Current  
+
 # Red Hat | Senior Technical Support Engineer
 *location:* Brno, Czech Republic  
 *period:* February 2015 - April 2019 *(4 yrs 3 mos)*  
