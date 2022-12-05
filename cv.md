@@ -11,15 +11,15 @@ permalink: /cv/
 *The current version of this CV lives at:* [{{ site.url }}/cv/]({{ site.url }}/cv/)
 
 # Canonical ⋅ Technical Support Engineer
-*location:* Athens, Greece (remote)  
-*Period:* September 2022 - December 2022 *(4 months)*
+**location:** Athens, Greece (remote)  
+**period:** September 2022 - December 2022 *(4 months)*
 
 At Canonical I was hired to be part of the newly formed Desktop Support Group.
 Unfortunately, the company decided to enforce a medical policy with which I chose to not comply.
 
 # Red Hat ⋅ Senior Technical Support Engineer
-*location:* Brno, Czech Republic  
-*period:* February 2015 - April 2019 *(4 years 3 months)*
+**location:** Brno, Czech Republic  
+**period:** February 2015 - April 2019 *(4 years 3 months)*
 *positions:*  
 * Senior Technical Support Engineer *(Oct 2018 – Apr 2019)*
 * Technical Support Engineer *(Sep 2015 – Sep 2018)*
@@ -42,8 +42,8 @@ My main responsibilities were:
     * KCS coaching.
 
 # Video Sites ⋅ System Administrator
-*location:* remote - home office  
-*period:* November 2011 - April 2013 and February 2014 - January 2015 *(2 years 6 months)*
+**location:** remote - home office  
+**period:** November 2011 - April 2013 and February 2014 - January 2015 *(2 years 6 months)*
 
 I worked for a series of video on demand websites as a system administrator. My day to day responsibilities revolved around Linux system administration.  
 My main responsibilities were:
@@ -56,8 +56,8 @@ My main responsibilities were:
 In addition to day-to-day tasks, I planned and implemented a migration from an old performance graphing system (cacti) to a more flexible modern stack (graphite, grafana, statsd, logstash, collectd) for the entire infrastructure. (I don't know how mature prometheus was in 2014 but if it was and I was aware of it, I would have used it!)
 
 # thinkbinary.gr ⋅ on-site Technical Support
-*location:* Athens, Greece  
-*period:* March 2010 – May 2011 *(1 yr 3 months)*
+**location:** Athens, Greece  
+**period:** March 2010 – May 2011 *(1 yr 3 months)*
 
 I provided on-site technical support for small offices with Windows infrastructure.  
 This was a part-time position, responding based on customer support requests.
@@ -70,8 +70,8 @@ Work usually involved:
 * Assisting users with miscellaneous requests.
 
 # City Unity College ⋅ System Administrator
-*location:* Athens, Greece  
-*period:* September 2009 - December 2011 *(2 years 4 months)*
+**location:** Athens, Greece  
+**period:** September 2009 - December 2011 *(2 years 4 months)*
 
 I worked in the college's IT team while it was expanding to its second building in the center of Athens. My colleagues and I carried out the installation of all the computer equipment for the new building which included:
 
