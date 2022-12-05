@@ -12,7 +12,10 @@ permalink: /cv/
 
 # Canonical ⋅ Technical Support Engineer
 *location:* Athens, Greece (remote)  
-*Period:* September 2022 - Current  
+*Period:* September 2022 - December 2022 *(4 months)*
+
+At Canonical I was hired to be part of the newly formed Desktop Support Group.
+Unfortunately, the company decided to enforce a medical policy with which I chose to not comply.
 
 # Red Hat ⋅ Senior Technical Support Engineer
 *location:* Brno, Czech Republic  
