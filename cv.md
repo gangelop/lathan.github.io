@@ -7,8 +7,6 @@ permalink: /cv/
 <link rel="stylesheet" href="/css/cvprint.css">
 <button class="printhide" onclick="window.print();return false;">print this page</button>
 
-# Summary
-
 I have a passion for Linux and Open Source software and have been fortunate to work in this space since 2009.
 If your team can use a person with deep knowledge of Linux and associated Open Source technologies, that might be me!
 
