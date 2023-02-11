@@ -7,6 +7,11 @@ permalink: /cv/
 <link rel="stylesheet" href="/css/cvprint.css">
 <button class="printhide" onclick="window.print();return false;">print this page</button>
 
+# Summary
+
+I have a passion for Linux and Open Source software and have been fortunate to work in this space since 2009.
+If your team can use a person with deep knowledge of Linux and associated Open Source technologies, that might be me!
+
 *Contact me at:* [george@usermod.net](mailto:george@usermod.net)  
 *The current version of this CV lives at:* [{{ site.url }}/cv/]({{ site.url }}/cv/)
 
@@ -14,7 +19,8 @@ permalink: /cv/
 **location:** Athens, Greece (remote)  
 **period:** September 2022 - December 2022 *(4 months)*
 
-At Canonical I was hired to be part of the newly formed Desktop Support Group.
+At Canonical I was hired to be part of the newly formed Desktop Support Group.  
+I was also looking forward to contribute to Canonical's Blender support, given my familiarity with the software.  
 Unfortunately, the company decided to enforce a medical policy with which I chose to not comply.
 
 # Red Hat ⋅ Senior Technical Support Engineer
@@ -27,7 +33,7 @@ Unfortunately, the company decided to enforce a medical policy with which I chos
 
 At Red Hat I worked as part of the customer support team for Red Hat Enterprise Linux. I initially specialized in filesystem and storage and later in kernel related issues.  
 My main responsibilities were:
-* Solving technical issues for customers running RHEL such as kernel panics, out of memory events, performance issues, filesystem corruptions, lvm corruptions, storage (NAS, SAN) disconnections.
+* Solving technical issues for customers running RHEL such as kernel panics, out of memory events, performance issues, filesystem corruptions, lvm corruptions, storage disconnections (NAS, SAN).
 * Working in a high pressure environment with response times defined in a Service-Level Agreement.
 * Communicating with customers over e-mail and phone.
 * Contributing to Red Hat's Knowledge-Centered Service (KCS) knowledgebase.
