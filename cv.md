@@ -17,8 +17,7 @@ If your team can use a person with deep knowledge of Linux and associated Open S
 **period:** September 2022 - December 2022 *(4 months)*
 
 At Canonical I was hired to be part of the newly formed Desktop Support Group.  
-I was also looking forward to contribute to Canonical's Blender support, given my familiarity with the software.  
-Unfortunately, the company decided to enforce a medical policy with which I chose to not comply.
+I also contributed to the initial stages of Canonical's Blender support.
 
 # Red Hat ⋅ Senior Technical Support Engineer
 **location:** Brno, Czech Republic  
